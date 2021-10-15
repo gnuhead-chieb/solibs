@@ -1,0 +1,1045 @@
+[
+  {
+      "label": "MSA SDK",
+      "signature": "lib39285EFA.so|libA3AEECD8.so|libsecsdk.so",
+      "tracker": "yes",
+      "description": "The unified call of the mobile smart terminal supplementary device identification system SDK is provided by the China Academy of Information and Communications Technology's Tyre Terminal Laboratory and the Mobile Security Alliance. The intellectual property rights are owned by the China Academy of Information and Communications Technology.",
+      "relativeUrl": "http://msa-alliance.cn"
+  },
+
+  {
+      "label": "AVPro Video",
+      "signature": "libAVProLocal.so",
+      "tracker": "no",
+      "description": "AVPro Video is a multi-platform Unity plug-in for advanced video playback.",
+      "relativeUrl": "https://renderheads.com/products/avpro-video/"
+  },
+
+  {
+      "label": "DuMix",
+      "signature": "libBaiduSpeechSDK.so|libImgRecognition.so|libbdEASRAndroid.so|libbdSpilWakeup.so|libvad.dnn.so",
+      "tracker": "no",
+      "description": "The DuMix AR platform is an AR technology product application service launched by Baidu AR, which helps developers quickly integrate SDKs and efficiently produce and distribute AR content. It includes AR SDK, content production tools, cloud content platform and content distribution services, forming a one-stop AR development integrated solution.",
+      "relativeUrl": "https://github.com/baidu/ar-sdk/"
+  },
+
+  {
+      "label": "Tencent Beacon",
+      "signature": "libBeacon.so",
+      "tracker": "yes",
+      "description": "Tencent Mobile Open Platform is a platform for mobile application developers.",
+      "relativeUrl": "https://wiki.open.qq.com/wiki/"
+  },
+
+  {
+      "label": "Bugly",
+      "signature": "libBugly-rqd.so|libBugly.so",
+      "tracker": "yes",
+      "description": "Tencent Bugly provides professional exception reporting and operation statistics for mobile developers, helping developers to quickly find and solve exceptions, and at the same time grasp the dynamics of product operations, and follow up user feedback in a timely manner.",
+      "relativeUrl": "https://bugly.qq.com/"
+  },
+
+  {
+      "label": "BurstLinker",
+      "signature": "libBurstLinker.so",
+      "tracker": "no",
+      "description": "A simple GIF encoder on the Android platform.",
+      "relativeUrl": "https://github.com/bilibili/BurstLinker"
+  },
+
+  {
+      "label": "URORA SDK",
+      "signature": "libCtaApiLib.so",
+      "tracker": "yes",
+      "description": "URORA authentication integrates the gateway authentication capabilities of the three major operators, providing developers with one-click login and number authentication functions, optimizing the experience of user registration/login and number verification, and improving security.",
+      "relativeUrl": "https://docs.jiguang.cn/jverification/client/android_guide/"
+  },
+
+  {
+      "label": "Bangcle",
+      "signature": "libDexHelper-x86.so|libDexHelper.so|libSecShell-x86.so|libSecShell.so|libdexjni.so|libsecexe.so",
+      "tracker": "yes",
+      "description": "In response to various security risks such as cracking, tampering, piracy, phishing fraud, memory debugging, data theft, etc., which are currently common in mobile applications, Bangbang Security provides developers with comprehensive mobile application reinforcement encryption technology and attack prevention services.",
+      "relativeUrl": "https://www.bangcle.com/products/productindex/"
+  },
+
+  {
+      "label": "Firebase Cloud Messaging",
+      "signature": "libFirebaseCppMessaging.so",
+      "tracker": "no",
+      "description": "Firebase Cloud Messaging, also known as Firebase Cloud Messaging, formerly known as Google Cloud Messaging, is a cross-platform solution for messaging and notifications for Android, iOS, and web applications. It is currently available for free. The service is provided by Firebase, a company owned by Google. Firebase has announced its acquisition by Google on October 21, 2014.",
+      "relativeUrl": "https://firebase.google.com/docs/cloud-messaging"
+  },
+
+  {
+      "label": "Tencent CloudIM SDK",
+      "signature": "libImSDK.so|libqalcodecwrapper.so|libqalmsfboot.so|libwtcrypto.so",
+      "tracker": "yes",
+      "description": "Tencent Cloud Communication is based on the development of QQ's underlying IM capabilities. It only needs to implant the SDK to easily integrate chat, conversation, group, and data management capabilities to help you send and receive rich media messages such as text, pictures, short voice, and short video, which is fully satisfied Communication needs.",
+      "relativeUrl": "https://cloud.tencent.com/product/im/getting-started/"
+  },
+
+  {
+      "label": "React Native",
+      "signature": "libJavaScriptCore.so|libfolly_futures.so|libfolly_json.so|libglog_init.so|libjsc.so|libjscexecutor.so|libjsinspector.so|libreactnative.so|libreactnativeblob.so|libreactnativejni.so|libreactnativejnifb.so",
+      "tracker": "no",
+      "description": "React Native allows you to write native mobile applications using only JavaScript. It is consistent with React in terms of design principles, and uses a declarative component mechanism to build a colorful user interface.",
+      "relativeUrl": "https://reactnative.dev/"
+  },
+
+  {
+      "label": "wgs2gcj",
+      "signature": "libJni_wgs2gcj.so",
+      "tracker": "no",
+      "description": "WGS84 is a geodetic coordinate system, and it is also the coordinate system used by the widely used GPS global satellite positioning system. GCJ02, also known as the Mars coordinate system, is a geographic coordinate system formulated by the State Bureau of Surveying and Mapping of China. It is a coordinate system encrypted by WGS84. In China, all coordinates must be offset by the National Bureau of Surveying and Mapping, so GPS coordinates need to be converted.",
+      "relativeUrl": ""
+  },
+
+  {
+      "label": "Live2D Cubism SDK",
+      "signature": "libLive2DCubismCore.so",
+      "tracker": "no",
+      "description": "Cubism SDK is a software development group kit required to use models made by Live2D Cubism Editor on the user APP.",
+      "relativeUrl": "https://docs.live2d.com/cubism-sdk-manual/top/"
+  },
+
+  {
+      "label": "MMA China SDK",
+      "signature": "libMMANDKSignature.so",
+      "tracker": "yes",
+      "description": "MMA (China Wireless Marketing Alliance) Universal SDK. In the past, to monitor the data such as the exposure and click of advertisements in the APP, it was necessary to add the SDK of a third-party advertising monitoring company. If different advertisers use different third-party advertising monitoring, it is necessary to add monitoring SDKs of multiple companies, which will undoubtedly increase the cost. And risk. Now, you only need to add the MMA (China Wireless Marketing Alliance) Universal SDK once to meet the monitoring needs of all third-party monitoring companies in all MMA members. At the same time, the internal calling methods of the SDK remain consistent, which also reduces development costs.",
+      "relativeUrl": "http://www.mmachina.cn/assets/mma_doc/index.html"
+  },
+
+  {
+      "label": "MNN",
+      "signature": "libMNN.so|libMNN_CL.so|libMNN_Express.so",
+      "tracker": "no",
+      "description": "MNN is an efficient and lightweight deep learning framework. It supports deep model reasoning and training, especially in the end-side reasoning and training performance in the industry's leading position.",
+      "relativeUrl": "https://github.com/alibaba/MNN"
+  },
+
+  {
+      "label": "Tencent MTA",
+      "signature": "libMtaNativeCrash.so|libmtanativecrash_v2.so",
+      "tracker": "yes",
+      "description": "MTA provides real-time data statistical analysis services for your applications (APP, H5 and applets), monitors version quality, channel status, user profile attributes and user segmentation behavior, and assists product, operation and market decision-making through data visualization.",
+      "relativeUrl": "https://mta.qq.com/docs/"
+  },
+  {
+      "label": "PLDroidPlayer",
+      "signature": "libQPlayer.so",
+      "tracker": "no",
+      "description": "PLDroidPlayer is a free player SDK for Android platform launched by Qiniu. It adopts a fully self-developed cross-platform playback kernel. It has rich functions and excellent performance, and can be highly customized and secondary development.",
+      "relativeUrl": "https://github.com/pili-engineering/PLDroidPlayer"
+  },
+
+  {
+      "label": "RenderScript",
+      "signature": "libRSSupport.so|librsjni.so|librsjni_androidx.so",
+      "tracker": "no",
+      "description": "RenderScript is a framework for running computationally intensive tasks with high performance on Android. RenderScript is mainly used for data parallel computing, but serial workloads can also benefit from it. The RenderScript runtime can schedule work in parallel among multiple processors (such as multi-core CPUs and GPUs) provided on the device. This way you can focus on expressing algorithms instead of scheduling work. RenderScript is especially useful for applications that perform image processing, computational photography, or computer vision.",
+      "relativeUrl": "https://developer.android.com/guide/topics/renderscript/compute/"
+  },
+
+  {
+      "label": "RongCloud IM SDK",
+      "signature": "libRongIMLib.so",
+      "tracker": "no",
+      "description": "IM instant messaging-SealTalk supports in-app social networking and other scenarios, experience single group chats, chat rooms, audio and video calls, small videos, dynamic expressions and other communication capabilities",
+      "relativeUrl": "https://github.com/sealtalk/sealtalk-android"
+  },
+
+  {
+      "label": "libSDL",
+      "signature": "libSDL2.so",
+      "tracker": "no",
+      "description": "SDL is a cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick, and graphics hardware through OpenGL and Direct3D. It is used by video playback software, emulators, and popular games, including Valve's award-winning catalog and many Humble Bundle games.    ",
+      "relativeUrl": "https://www.libsdl.org"
+  },
+
+  {
+      "label": "Shanyan SDK",
+      "signature": "libShanYCore.so",
+      "tracker": "yes",
+      "description": "Flash Check integrates three major operators, supports domestic three-network mobile phone number segments, Android/iOS mobile phones, SDK products that can obtain user mobile phone numbers with one click, establishes a decentralized open account system with mobile phone numbers, and improves registration conversion efficiency Must-have features.",
+      "relativeUrl": "https://shanyan.253.com/"
+  },
+
+  {
+      "label": "Unreal Engine",
+      "signature": "libUE4.so",
+      "tracker": "no",
+      "description": "Unreal Engine is a game engine developed by Epic Games. The engine is mainly designed for the development of first-person shooter games, but has now been successfully used in the development of stealth games, fighting games, role-playing games and other different types of games.",
+      "relativeUrl": "https://docs.unrealengine.com/en-US/index.html"
+  },
+
+  {
+      "label": "Tencent Cloud ASR",
+      "signature": "libWXVoice.so",
+      "tracker": "no",
+      "description": "Tencent Cloud Speech Recognition ASR SDK provides server, client, front-end, and applet SDK, providing you with a convenient, fast, and flexible way to integrate speech recognition into your service.",
+      "relativeUrl": "https://cloud.tencent.com/document/product/1093/52554"
+  },
+
+  {
+      "label": "AdColony",
+      "signature": "libadcolony.so",
+      "tracker": "yes",
+      "description": "AdColony Mobile Ads SDK for Android.",
+      "relativeUrl": "https://github.com/AdColony/AdColony-Android-SDK"
+  },
+
+  {
+      "label": "WebRTC",
+      "signature": "libagora-rtc-sdk-jni.so|libjingle_peerconnection_so.so",
+      "tracker": "no",
+      "description": "With WebRTC, you can add real-time communication capabilities to applications based on open standards. It supports sending video, voice and general data between peers, thereby enabling developers to build powerful voice and video communication solutions. This technology can be used on all modern browsers and native clients on all major platforms. The technology behind WebRTC is implemented as an open web standard and is provided as a regular JavaScript API in all major browsers.",
+      "relativeUrl": "https://webrtc.org/"
+  },
+
+  {
+      "label": "AndFix",
+      "signature": "libandfix.so|libandfix_x86.so",
+      "tracker": "no",
+      "description": "AndFix is u200bu200ba solution to fix errors online without redistributing the Android App.",
+      "relativeUrl": "https://github.com/alibaba/AndFix"
+  },
+
+  {
+      "label": "Xamarin",
+      "signature": "libaot-mscorlib.dll.so|libmono-btls-shared.so|libmono-native.so|libmonodroid.so|libmonodroid_bundle_app.so|libmonosgen-2.0.so|libxamarin-app.so",
+      "tracker": "no",
+      "description": "Xamarin is a cross-platform development software. By using the C# shared code base, developers can use Xamarin tools to write native Android, iOS and Windows applications using the local user interface, and share them across multiple platforms (including Windows and MacOS) Code.",
+      "relativeUrl": "https://dotnet.microsoft.com/apps/xamarin/"
+  },
+
+  {
+      "label": "Tencent Cloud QAPM",
+      "signature": "libapmart.so|libapmcrash.so|libapmdalvik.so|libapmioFake.so",
+      "tracker": "yes",
+      "description": "Tencent Client Performance Analysis (QAPM) is an SDK for omni-directional positioning and testing of APP application performance. It is easy to use, and can provide multi-dimensional testing and analysis. You only need to simply call a few interfaces, and you can APP does all-round performance testing.",
+      "relativeUrl": "https://cloud.tencent.com/document/product/683"
+  },
+
+  {
+      "label": "ApngDrawable",
+      "signature": "libapng-drawable.so",
+      "tracker": "no",
+      "description": "ApngDrawable is an efficient and lightweight APNG image decoding library on the Android platform.",
+      "relativeUrl": "https://github.com/line/apng-drawable"
+  },
+
+  {
+      "label": "Flutter",
+      "signature": "libapp.so|libflutter.so",
+      "tracker": "no",
+      "description": "Flutter is Google's mobile UI framework, which can quickly build high-quality native user interfaces on iOS and Android.",
+      "relativeUrl": "https://flutter.dev/"
+  },
+
+  {
+      "label": "AMAP SDK",
+      "signature": "libapssdk.so",
+      "tracker": "no",
+      "description": "AutoNavi Maps Android SDK is a set of map development call interfaces. Developers can easily add map-related functions to their Android applications, including: map display (including indoor and outdoor maps), interact with the map, and draw on the map , Point of interest search, geocoding, offline map and other functions.",
+      "relativeUrl": "https://lbs.amap.com/api/android-sdk/summary/"
+  },
+
+  {
+      "label": "Virocore",
+      "signature": "libarcore_sdk_c.so",
+      "tracker": "no",
+      "description": "With ViroCore, Android developers can now use familiar languages u200bu200band tools to build immersive AR/VR applications.",
+      "relativeUrl": "https://developer.android.com/ndk/guides/cpp-support/"
+  },
+
+  {
+      "label": "ARCore",
+      "signature": "libarcore_sdk_jni.so",
+      "tracker": "no",
+      "description": "ARCore is Google’s augmented reality experience building platform. ARCore uses different APIs to allow your phone to perceive its environment, understand the real world, and interact with information. Some APIs provided on both Android and iOS support sharing AR experiences.",
+      "relativeUrl": "https://developers.google.com/ar/discover/"
+  },
+
+  {
+      "label": "libaria2",
+      "signature": "libaria2c.so",
+      "tracker": "no",
+      "description": "libaria2 is a C library and provides the core functions of aria2. The library is responsible for all network and download content, so its usage is now very simple.",
+      "relativeUrl": "https://aria2.github.io/manual/en/html/libaria2.html"
+  },
+
+  {
+      "label": "FFmpeg",
+      "signature": "libavcodec.so|libavdevice.so|libavfilter.so|libavformat.so|libavutil.so|libswresample.so|libswscale.so",
+      "tracker": "no",
+      "description": "FFmpeg is a leading multimedia framework, capable of decoding, encoding, transcoding, MUX, DEMUX, streaming, filtering and playing almost all content created by humans and machines.",
+      "relativeUrl": "http://www.ffmpeg.org/libavcodec.html"
+  },
+
+  {
+      "label": "Fresco",
+      "signature": "libbitmaps.so|libgifimage.so|libimagepipeline.so|libmemchunk.so|libnative-filters.so|libnative-imagetranscoder.so|libstatic-webp.so|libwebp.so|libwebpimage.so",
+      "tracker": "no",
+      "description": "Fresco is an Android library for managing images and the memory they use.",
+      "relativeUrl": "https://github.com/facebook/fresco/"
+  },
+
+  {
+      "label": "Bmob",
+      "signature": "libbmob.so",
+      "tracker": "no",
+      "description": "Bmob back-end cloud focuses on providing a complete set of back-end cloud services for mobile applications, helping developers to avoid almost all server-side coding workload, and exponentially reducing development costs and development time.",
+      "relativeUrl": "http://doc.bmob.cn/"
+  },
+
+  {
+      "label": "BoostMultiDex",
+      "signature": "libboost_multidex.so",
+      "tracker": "no",
+      "description": "BoostMultiDex is a solution for fast loading of multiple DEX on Android devices with low versions (4.X and below, SDK <21).",
+      "relativeUrl": "https://github.com/bytedance/BoostMultiDex"
+  },
+
+  {
+      "label": "Pangle SDK",
+      "signature": "libbuffer_pg.so|libfile_lock_pg.so|libmetasec_ml.so|libnms.so|libtobEmbedEncrypt.so",
+      "tracker": "yes",
+      "description": "Pangolin is a global application monetization and growth platform under the giant engine. It has cooperated with more than 30,000 high-quality media, with daily requests exceeding 60.7 billion, with an average daily display of 10 billion, covering 700 million daily active users, and providing efficient user growth for global applications and advertisers. And monetization solutions.",
+      "relativeUrl": "https://partner.oceanengine.com/"
+  },
+
+  {
+      "label": "163 Crash",
+      "signature": "libbugrpt.so",
+      "tracker": "yes",
+      "description": "......",
+      "relativeUrl": "http://crash.163.com/index.do"
+  },
+
+  {
+      "label": "Bugsnag",
+      "signature": "libbugsnag-ndk.so|libbugsnag-plugin-android-anr.so",
+      "tracker": "yes",
+      "description": "Bugsnag's Android crash report library will automatically detect crashes in Android applications, collect diagnostic information and immediately notify your development team to help you understand and solve the problem as soon as possible.",
+      "relativeUrl": "https://github.com/bugsnag/bugsnag-android"
+  },
+
+  {
+      "label": "C++ Shared Library",
+      "signature": "libc++_shared.so|libgnustl_shared.so",
+      "tracker": "no",
+      "description": "Run native code in Android apps.",
+      "relativeUrl": "https://developer.android.com/ndk/guides/cpp-support/"
+  },
+
+  {
+      "label": "libchrome",
+      "signature": "libchrome.so",
+      "tracker": "no",
+      "description": "The Chromium project has an general utility library referred to as libbase. Because it is standalone and does not depend on any other parts of Chromium, it has been been picked up by other Google related projects so people don't have to reinvent these things. Along those lines, a package in Chromium OS is provided so that projects specific to us can share the code without having to bundle it multiple times over. Currently, there are over 20 such projects in Chromium OS. To keep people on their toes, the package is named libchrome as libbase by itself is too confusing. Granted, libchrome isn‘t exactly clear itself, but it’s a lose-lose situation, and we tried our best. Please still love us.",
+      "relativeUrl": "https://chromium.googlesource.com/chromiumos/docs/+/master/packages/libchrome.md"
+  },
+
+  {
+      "label": "Android Crazy Linker",
+      "signature": "libchrome_android_linker.so",
+      "tracker": "no",
+      "description": "Fork of the Android NDK crazy linker.",
+      "relativeUrl": "https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/third_party/android_crazy_linker"
+  },
+
+  {
+      "label": "cocos2d-cpp",
+      "signature": "libcocos2dcpp.so",
+      "tracker": "no",
+      "description": "cocos2d-cpp is a 2D portable game engine written in C++14, suitable for Android, iOS, Linux, MacOS and Windows.",
+      "relativeUrl": "https://github.com/cocos2d-cpp/cocos2d-cpp"
+  },
+
+  {
+      "label": "Xiaomi Game SDK",
+      "signature": "libconnectionbase.so|libmilinkconnection.so",
+      "tracker": "yes",
+      "description": "Mi Games is the official game download platform for Mi phones, Mi tablets, and Mi TVs. Here we provide one-stop access services for all game developers, and provide high-quality distribution and promotion services to help you run your games.",
+      "relativeUrl": "https://dev.mi.com/console/app/gamecenter.html"
+  },
+
+  {
+      "label": "Conscrypt",
+      "signature": "libconscrypt_jni.so",
+      "tracker": "no",
+      "description": "Conscrypt is a Java Security Provider (JSP) that implements part of the Java Cryptographic Extension (JCE) and Java Secure Socket Extension (JSSE). It uses BoringSSL to provide encryption primitives and Transport Layer Security (TLS) for Java applications on Android and OpenJDK. For details on the content provided, please refer to the feature documentation.",
+      "relativeUrl": "https://github.com/google/conscrypt"
+  },
+
+  {
+      "label": "Crashlytics",
+      "signature": "libcrashlytics-common.so|libcrashlytics-handler.so|libcrashlytics-trampoline.so|libcrashlytics.so",
+      "tracker": "yes",
+      "description": "Crashlytics is Firebase’s main crash reporting tool. Organize many crashes into a list of easy to manage problems, thus shortening the troubleshooting time. Check the impact of the issue on the user in the Crashlytics dashboard to clearly and reasonably determine which issues should be resolved first.",
+      "relativeUrl": "https://firebase.google.com/docs/crashlytics/"
+  },
+
+  {
+      "label": "Yueying",
+      "signature": "libcrashsdk.so",
+      "tracker": "yes",
+      "description": "Yueying Panorama Monitoring is an advanced mobile application online monitoring platform officially produced by Ali UC, which provides services for many well-known enterprises.",
+      "relativeUrl": "https://yueying-docs.effirst.com/"
+  },
+
+  {
+      "label": "CRI Sofdec2 Unity",
+      "signature": "libcri_mana_vpx.so",
+      "tracker": "no",
+      "description": "CRIWARE is used for video playback decoding components.",
+      "relativeUrl": "https://game.criware.jp/manual/unity_plugin/latest/contents/group__CRIMANA__UNITY__COMPONENT.html"
+  },
+
+  {
+      "label": "CRI ADX2 Unity",
+      "signature": "libcri_ware_unity.so",
+      "tracker": "no",
+      "description": "Sound system plug-ins in Unity that can be used for commercial game development. Special tools can be downloaded from the support website to edit the sound, and technical support is also provided on the website.",
+      "relativeUrl": "https://assetstore.unity.com/packages/tools/audio/cri-adx2-unity-plugin-assetstore-100086"
+  },
+
+  {
+      "label": "OpenSSL",
+      "signature": "libcrypto.so|libopenssl.so|libssl.so",
+      "tracker": "no",
+      "description": "OpenSSL is a powerful, commercial-grade and full-featured toolkit for Transport Layer Security Protocol (TLS) and Secure Socket Layer (SSL) protocols.",
+      "relativeUrl": "https://github.com/openssl/openssl"
+  },
+
+  {
+      "label": "LibCurl",
+      "signature": "libcurl.so",
+      "tracker": "no",
+      "description": "libcurl is a free and easy-to-use client URL transfer library.",
+      "relativeUrl": "https://github.com/curl/curl"
+  },
+
+  {
+      "label": "Hppplay SDK",
+      "signature": "libed25519.so|libhpplayae.so",
+      "tracker": "no",
+      "description": "Lebo Screencasting SDK has fully supported iOS and Android systems. After access, your App can easily have screen projection and mirroring capabilities, so as to meet user needs while also distributing your content on the big screen. It can be widely used in calling, video, music, live broadcasting, games, education, office and other scenarios.",
+      "relativeUrl": "https://cloud.hpplay.cn/"
+  },
+  {
+      "label": "UnionPay SDK",
+      "signature": "libentryexpro.so|libuptsmaddon.so|libuptsmaddonmi.so|libuptsmservice.so",
+      "tracker": "no",
+      "description": "UnionPay online payment gateway is an integrated and comprehensive Internet payment tool provided by China UnionPay and various commercial banks for cardholders. It mainly supports payment by entering card number, user login payment, online banking payment, mini payment (IC card payment), etc. It provides cardholders with payment services such as domestic and overseas online shopping, water, electricity and coal payment, and business travel reservations.",
+      "relativeUrl": "https://open.unionpay.com/"
+  },
+
+  {
+      "label": "Epic",
+      "signature": "libepic.so",
+      "tracker": "no",
+      "description": "Epic is a runtime AOP Hook framework with Java Method granularity at the virtual machine level. Simply put, Epic is Dexposed on ART (supports Android 4.0 ~ 10.0). It can intercept almost any Java method calls within the process, and can be used to implement AOP programming, runtime instrumentation, performance analysis, security audits, and so on.",
+      "relativeUrl": "https://github.com/tiann/epic/"
+  },
+
+  {
+      "label": "Facebook SDK",
+      "signature": "libfb.so",
+      "tracker": "yes",
+      "description": "The Facebook SDK is the easiest way to integrate Facebook into an Android application for Android.",
+      "relativeUrl": "https://developers.facebook.com/docs/android/getting-started/"
+  },
+
+  {
+      "label": "Sofire",
+      "signature": "libfire.so",
+      "tracker": "yes",
+      "description": "Business security risk control AFD is a professional protection product that identifies risks in real time based on business scenarios and combines multi-dimensional information such as IP profiling, device fingerprints, black card detection, and threat intelligence. AFD can effectively identify and solve cheating problems such as channel promotion, account security, payment security, marketing activities, etc., and avoid huge economic losses for enterprises. Android Security SDK, also known as Haotian SDK, is an intelligent analysis platform based on massive threat intelligence data. It connects the entire chain of mobile, cloud, and PC security data, and uses the deep learning artificial intelligence platform to correlate from massive security incidents. Through analysis, it can perceive potential Internet threats and APT events, and can analyze and identify the infrastructure and technical means of the attack camp, bid farewell to the passive defense situation, and provide users with a safer Internet experience.",
+      "relativeUrl": "https://cloud.baidu.com/doc/AFD/s/Ijwvy4s7b"
+  },
+
+  {
+      "label": "Hippy",
+      "signature": "libflexbox.so|libhippybridge.so",
+      "tracker": "no",
+      "description": "Hippy is a new cross-terminal development framework, the goal is to enable developers to write a set of code and run directly on three platforms (iOS, Android and Web).",
+      "relativeUrl": "https://github.com/Tencent/Hippy/"
+  },
+
+  {
+      "label": "FrameSequence",
+      "signature": "libframesequence.so",
+      "tracker": "no",
+      "description": "Frame sequence package library in Android system.",
+      "relativeUrl": "https://android.googlesource.com/platform/frameworks/ex/"
+  },
+
+  {
+      "label": "FreeType",
+      "signature": "libfreetype.so",
+      "tracker": "no",
+      "description": "FreeType is a freely available software library for rendering fonts. It is written in C language, designed to be small, efficient, highly customizable and portable, while being able to generate high-quality output (glyph images) in most vector and bitmap font formats.",
+      "relativeUrl": "https://www.freetype.org/"
+  },
+
+  {
+      "label": "GCanvas",
+      "signature": "libgcanvas.so",
+      "tracker": "no",
+      "description": "GCanvas is a cross-platform canvas solution that implements graphics 2D and WebGL API. GCanvas enables its users to directly access the OpenGL ES API. GCanvas aims to solve the performance and compatibility issues of JavaScript developers' canvas.",
+      "relativeUrl": "https://alibaba.github.io/GCanvas/"
+  },
+
+  {
+      "label": "libGDX",
+      "signature": "libgdx-box2d.so|libgdx-freetype.so|libgdx.so",
+      "tracker": "no",
+      "description": "libGDX is a cross-platform Java game development framework based on OpenGL(ES), which can run on Windows, Linux, Mac OS X, Android, iOS and browsers that support WebGL. It provides a well-proven and robust environment for rapid prototyping and rapid iteration. LibGDX does not impose a specific design or coding style on you, but allows you to freely choose the way you like to create the game.",
+      "relativeUrl": "https://github.com/libgdx/libgdx"
+  },
+
+  {
+      "label": "Getui",
+      "signature": "libgetuiext3.so",
+      "tracker": "yes",
+      "description": "A push is a commercial-level mobile application message push cloud service solution. The client SDK supports Android and iOS platforms. The cloud supports rich web push management functions and multiple language versions of API open interfaces.",
+      "relativeUrl": "http://docs.getui.com/getui/start/product/"
+  },
+
+  {
+      "label": "GlideWebpDecoder",
+      "signature": "libglide-webp.so",
+      "tracker": "no",
+      "description": "GlideWebpDecoder is a Glide integrated library for decoding and displaying webp images on the Android platform. It is based on the libwebp project and uses some implementations of Fresco and GlideWebpSupport as a reference.",
+      "relativeUrl": "https://github.com/zjupure/GlideWebpDecoder"
+  },
+
+  {
+      "label": "glog",
+      "signature": "libglog.so",
+      "tracker": "no",
+      "description": "glog is a C++ log library that provides a C++ streaming style API.",
+      "relativeUrl": "https://github.com/google/glog/"
+  },
+
+  {
+      "label": "gocryptsfs",
+      "signature": "libgocryptfs.so|libgocryptfs_jni.so",
+      "tracker": "no",
+      "description": "Encrypted overlay filesystem written in Go.",
+      "relativeUrl": "https://github.com/rfjakob/gocryptfs"
+  },
+
+  {
+      "label": "Golang",
+      "signature": "libgojni.so",
+      "tracker": "no",
+      "description": "Go is an open source programming language that makes it easy to build simple, reliable and efficient software.",
+      "relativeUrl": "https://github.com/golang/mobile"
+  },
+
+  {
+      "label": "GPUImage",
+      "signature": "libgpuimage-library.so",
+      "tracker": "no",
+      "description": "GPUImage for Android is an open source project for performing GPU-accelerated image and video processing on Android.",
+      "relativeUrl": "https://github.com/cats-oss/android-gpuimage"
+  },
+
+  {
+      "label": "Google VR SDK",
+      "signature": "libgvr.so",
+      "tracker": "no",
+      "description": "Google VR for Android supports DayDream and Cardboard.",
+      "relativeUrl": "https://github.com/googlevr/gvr-android-sdk"
+  },
+
+  {
+      "label": "HardCoder",
+      "signature": "libhardcoder.so",
+      "tracker": "no",
+      "description": "Hardcoder is a communication solution between the Android APP and the system. It breaks through the problem that the APP can only call the system standard API and cannot directly call the system's underlying hardware resources, allowing the Android APP and the system to communicate in real time. APP can fully schedule system resources such as CPU frequency, core size, GPU frequency, etc. to improve APP performance. The system can obtain more information from the APP side to provide various system resources more reasonably. At the same time, for functions that Android lacks standard interfaces, APP and system can also realize model adaptation and function expansion through this framework.",
+      "relativeUrl": "https://github.com/Tencent/Hardcoder"
+  },
+
+  {
+      "label": "Tencent Cloud HTTPDNS",
+      "signature": "libhttpdns.so",
+      "tracker": "yes",
+      "description": "HTTPDNS sends domain name resolution requests to Tencent Cloud's DNS server based on the HTTP protocol, instead of the traditional way of initiating resolution requests to the operator LocalDNS based on the DNS protocol. It can avoid domain name hijacking and cross-network access problems caused by LocalDNS and solve the domain name in mobile Internet services. Analyze the trouble caused by the exception.",
+      "relativeUrl": "https://github.com/tencentyun/httpdns-android-sdk"
+  },
+
+  {
+      "label": "AR Engine",
+      "signature": "libhuawei_arengine_impl.so|libhuawei_arengine_jni.so|libhuawei_arengine_ndk.so",
+      "tracker": "yes",
+      "description": "HUAWEI AR Engine is a platform for building augmented reality applications on Android. HUAWEI AR Engine integrates AR core algorithms based on the HiSilicon chip platform to provide basic AR capabilities such as motion tracking, environment tracking, human body and face tracking. These capabilities allow your application to achieve the integration of the virtual world and the real world. The application provides a brand new visual experience and way of interaction.",
+      "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050130900"
+  },
+
+  {
+      "label": "Easemob IM",
+      "signature": "libhyphenate.so",
+      "tracker": "yes",
+      "description": "Huanxin instant messaging cloud provides developers with mobile Internet-based instant messaging capabilities, such as single chat, group chat, voice, picture, location, real-time audio, real-time video, etc., allowing developers to get rid of the heavy mobile IM communication bottom layer Development, within 24 hours, the App has a stable and robust built-in IM capability.",
+      "relativeUrl": "http://docs-im.easemob.com/im/android/sdk/import"
+  },
+
+  {
+      "label": "iconv",
+      "signature": "libiconv.so",
+      "tracker": "no",
+      "description": "iconv is the name of a computer program and a set of application programming interfaces. Its function is to perform text internal code conversion between a variety of international encoding formats.",
+      "relativeUrl": "https://www.gnu.org/software/libiconv/"
+  },
+
+  {
+      "label": "IJKPlayer",
+      "signature": "libijkffmpeg.so|libijkplayer.so|libijksdl.so",
+      "tracker": "no",
+      "description": "IJKPlayer is a lightweight Android/iOS video player based on FFmpeg. It has the advantages of easy API integration, compile configuration can be cut, support for hardware acceleration decoding, DanmakuFlameMaster architecture is clear, simple and easy to use.",
+      "relativeUrl": "https://github.com/bilibili/ijkplayer/"
+  },
+
+  {
+      "label": "Unity",
+      "signature": "libil2cpp.so|libmain.so|libmono.so|libunity.so",
+      "tracker": "no",
+      "description": "The game code generated when the Unity game uses the Il2Cpp backend.",
+      "relativeUrl": "https://docs.unity3d.com/Manual/IL2CPP.html"
+  },
+
+  {
+      "label": "Baidu LBS",
+      "signature": "libindoor.so",
+      "tracker": "yes",
+      "description": "Baidu Maps Android SDK is a set of application program interfaces based on Android 4.0 and above devices. You can use this set of SDK to develop map applications for mobile devices of the Android system. By calling the Map SDK interface, you can easily access Baidu map services and data, and build map applications with rich functions and strong interaction.",
+      "relativeUrl": "https://lbsyun.baidu.com/"
+  },
+
+  {
+      "label": "Izuko",
+      "signature": "libizuko.so",
+      "tracker": "no",
+      "description": "Powered by Absinthe.",
+      "relativeUrl": "https://zhaobozhen.github.io/Anywhere-Docs"
+  },
+
+  {
+      "label": "360 Security",
+      "signature": "libjiagu.so|libjiagu_a64.so|libjiagu_x64.so|libjiagu_x86.so",
+      "tracker": "yes",
+      "description": "360 Reinforced Security is a security technology product based on the 360 u200bu200bcore encryption technology that provides deep encryption and shell protection for Android applications, which can protect applications from malicious cracking, decompilation, secondary packaging, memory capture and other threats.",
+      "relativeUrl": "https://jiagu.360.cn/"
+  },
+
+  {
+      "label": "KOOM",
+      "signature": "libkoom-java.so|libkwai-linker.so",
+      "tracker": "no",
+      "description": "KOOM (Kwai OOM, Kill OOM) is a set of complete solutions that the Kuaishou performance optimization team settled in the process of dealing with mobile terminal OOM problems.",
+      "relativeUrl": "https://github.com/KwaiAppTeam/KOOM"
+  },
+
+  {
+      "label": "Yoga",
+      "signature": "liblib_fb_fbjni.so|libyoga.so|libyouga.so",
+      "tracker": "no",
+      "description": "Yoga intends to create a layout engine that spans iOS, Android, and Windows platforms, compatible with the Flexbox layout, and makes the interface layout easier.",
+      "relativeUrl": "https://github.com/facebook/yoga/"
+  },
+
+  {
+      "label": "Tencent Cloud UGSV SDK",
+      "signature": "libliteavsdk.so|libtxffmpeg.so|libtxplayer.so|libtxsdl.so",
+      "tracker": "no",
+      "description": "Tencent Cloud on-demand has launched a one-stop solution for short video, covering all aspects of video generation, uploading, processing, distribution and playback, helping users to implement short video applications online at the fastest speed.",
+      "relativeUrl": "https://cloud.tencent.com/document/product/584/9453"
+  },
+
+  {
+      "label": "Log for C++",
+      "signature": "liblog4cpp.so",
+      "tracker": "no",
+      "description": "Log4cpp is library of C++ classes for flexible logging to files, syslog, IDSA and other destinations.",
+      "relativeUrl": "https://sourceforge.net/projects/log4cpp/"
+  },
+
+  {
+      "label": "AndroLua",
+      "signature": "libluajava.so",
+      "tracker": "no",
+      "description": "AndroLua is a lightweight script programming language tool for the Android platform based on LuaJava. It not only has the simplicity and elegance of Lua, but also supports most of the Android APIs, allowing you to quickly write small applications on your phone.",
+      "relativeUrl": "https://github.com/mkottman/AndroLua/"
+  },
+
+  {
+      "label": "Mars",
+      "signature": "libmarsxlog.so",
+      "tracker": "no",
+      "description": "Mars is the official cross-platform and cross-business terminal basic component of WeChat.",
+      "relativeUrl": "https://github.com/Tencent/Mars/"
+  },
+
+  {
+      "label": "MediaInfoLib",
+      "signature": "libmediainfo.so",
+      "tracker": "no",
+      "description": "MediaInfo(Lib) is a library for conveniently and uniformly displaying the most relevant technology and label data of video and audio files.",
+      "relativeUrl": "https://github.com/MediaArea/MediaInfoLib"
+  },
+
+  {
+      "label": "Megazord",
+      "signature": "libmegazord.so",
+      "tracker": "no",
+      "description": "Megazord packages multiple Rust components into a single .so file to reduce code size and increase ease of use.",
+      "relativeUrl": "https://github.com/mozilla/application-services/blob/main/docs/design/megazords.md"
+  },
+
+  {
+      "label": "Xiaoai SDK",
+      "signature": "libmibraindec.so|libmibrainjni.so|libmibrainsdk.so|libmibrainvad2.so",
+      "tracker": "no",
+      "description": "With the help of Xiaomi's hardware ecology and massive data, the Mi Mi Ai Open Platform provides the world's leading voice recognition, NLP and other artificial intelligence technologies, and provides developers with a one-stop artificial intelligence service platform. The Xiaomi Xiaoai open platform includes two parts, a voice service platform and a skill development platform, to create more and better voice services and skills for enterprise-level users and individual developers.",
+      "relativeUrl": "https://xiaoai.mi.com/documents/Home?type=/api/doc/render_markdown/Home/"
+  },
+
+  {
+      "label": "LibVLC",
+      "signature": "libmla.so|libvlc.so|libvlcjni.so",
+      "tracker": "no",
+      "description": "VLC is a free, free, and open source cross-platform multimedia player and framework that can play most multimedia files and various streaming media protocols.",
+      "relativeUrl": "https://github.com/videolan/vlc-android"
+  },
+
+  {
+      "label": "MMKV",
+      "signature": "libmmkv.so",
+      "tracker": "no",
+      "description": "MMKV is a key-value component based on mmap memory mapping. The underlying serialization/deserialization is implemented using protobuf, which has high performance and strong stability.",
+      "relativeUrl": "https://github.com/Tencent/MMKV"
+  },
+
+  {
+      "label": "LAME",
+      "signature": "libmp3lame.so",
+      "tracker": "no",
+      "description": "LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.",
+      "relativeUrl": "https://lame.sourceforge.io/"
+  },
+
+  {
+      "label": "iFlytek SDK",
+      "signature": "libmsc.so",
+      "tracker": "yes",
+      "description": "As the world's first open intelligent interactive technology service platform, iFLYTEK’s open platform is committed to creating a one-stop intelligent human-computer interaction solution for developers.",
+      "relativeUrl": "https://www.xfyun.cn/doc/"
+  },
+
+  {
+      "label": "DanmakuFlameMaster",
+      "signature": "libndkbitmap.so",
+      "tracker": "no",
+      "description": "Flame Barrage Maker is an open source barrage analysis and drawing engine project on Android.",
+      "relativeUrl": "https://github.com/bilibili/DanmakuFlameMaster/"
+  },
+
+  {
+      "label": "OpenCC",
+      "signature": "libopencc.so",
+      "tracker": "no",
+      "description": "Chinese Simplified-Traditional Conversion Open Source Project, which supports vocabulary level conversion, variant character conversion, and regional customary word conversion (new fonts in China, Taiwan, Hong Kong, and Japan).",
+      "relativeUrl": "https://github.com/BYVoid/OpenCC"
+  },
+
+  {
+      "label": "OpenCV",
+      "signature": "libopencv_core.so|libopencv_imgproc.so|libopencv_java3.so|libopencv_java4.so",
+      "tracker": "no",
+      "description": "OpenCV is a cross-platform computer vision library that can be used to develop real-time image processing, computer vision, and pattern recognition programs.",
+      "relativeUrl": "https://github.com/opencv/opencv/"
+  },
+
+  {
+      "label": "Opus",
+      "signature": "libopus.so",
+      "tracker": "no",
+      "description": "Opus is a codec used for interactive voice and audio transmission over the network",
+      "relativeUrl": "https://gitlab.xiph.org/xiph/opus"
+  },
+  {
+      "label": "Ping++ SDK",
+      "signature": "libpingpp.so",
+      "tracker": "no",
+      "description": "Ping++ is a new mobile payment access method. By using the SDK provided by Ping++, your product can support multiple current mainstream payment channels at the same time. At the same time, Ping++ also provides a transaction management platform to facilitate the unified management of transactions in all payment channels, effectively reducing your pre-development and post-management costs.",
+      "relativeUrl": "https://github.com/PingPlusPlus/pingpp-android"
+  },
+  {
+      "label": "android-gif-drawable",
+      "signature": "libpl_droidsonroids_gif.so",
+      "tracker": "no",
+      "description": "android-gif-drawable is a drawing library for displaying animated GIFs on Android.",
+      "relativeUrl": "https://github.com/koral--/android-gif-drawable/"
+  },
+
+  {
+      "label": "LibRaw",
+      "signature": "libraw.so",
+      "tracker": "no",
+      "description": "LibRaw is a library for reading RAW files from digital cameras.",
+      "relativeUrl": "https://github.com/LibRaw/LibRaw"
+  },
+
+  {
+      "label": "Rclone",
+      "signature": "librclone.so",
+      "tracker": "no",
+      "description": "Rclone is a command line program for managing cloud files.",
+      "relativeUrl": "https://github.com/rclone/rclone"
+  },
+
+  {
+      "label": "Realm",
+      "signature": "librealm-jni.so",
+      "tracker": "no",
+      "description": "The Realm platform is a next-generation data layer for cross-platform applications. Realm is responsive, concurrent and lightweight, it allows you to use real-time native objects. Using Realm allows your application to run seamlessly under weak signal, offline or interrupted conditions.",
+      "relativeUrl": "https://github.com/realm/"
+  },
+
+  {
+      "label": "Ren'Py",
+      "signature": "librenpython.so",
+      "tracker": "no",
+      "description": "Ren'Py is a visual novel engine used by thousands of creators from all over the world to help you run interactive stories on computers and mobile devices using words, images and sounds.",
+      "relativeUrl": "https://github.com/renpy/renpy"
+  },
+
+  {
+      "label": "Tencent Cloud CSS SDK",
+      "signature": "libsaturn.so",
+      "tracker": "yes",
+      "description": "Cloud Streaming Services (CSS) relies on Tencent's powerful technology platform to open the underlying capabilities of Tencent Video and other core businesses to users, and provide users with professional, stable and fast live broadcast access and distribution services, with low latency, high security, and high Features such as performance, easy access, multiple terminals, and multiple bit rate support.",
+      "relativeUrl": "https://cloud.tencent.com/document/product/267/"
+  },
+
+  {
+      "label": "Xiaomi Update SDK",
+      "signature": "libsdk_patcher_jni.so",
+      "tracker": "yes",
+      "description": "The Mi App Check Update SDK helps your users get the latest version of the app as soon as possible, and easily adds the function of [App Check Update], and quickly pushes the latest version of the app to users through the CDN service of the Mi App Store.",
+      "relativeUrl": "https://dev.mi.com/console/doc/detail?pId=4/"
+  },
+
+  {
+      "label": "Sentry",
+      "signature": "libsentry-android.so|libsentry.so",
+      "tracker": "yes",
+      "description": "Sentry is a real-time event logging and aggregation platform that is specifically designed to monitor errors and extract all the information needed to perform appropriate post-event actions.",
+      "relativeUrl": "https://sentry.io/for/android/"
+  },
+
+  {
+      "label": "Alibaba security",
+      "signature": "libsgavmp.so|libsgmain.so|libsgsecuritybody.so|libsgsgmiddletier.so",
+      "tracker": "yes",
+      "description": "Aliju Security is an open platform for developers with mobile application security as the core.",
+      "relativeUrl": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=106477&docType=1"
+  },
+
+  {
+      "label": "Shumei SDK",
+      "signature": "libsmsdk.so",
+      "tracker": "yes",
+      "description": "Device risk protection, based on advanced artificial intelligence technology, through high-stability and high-compatible device fingerprint anti-fraud SDK, full-path deployment control and full-stack real-time defense against cheating in marketing activities, fraud in database hacking, channel promotion cheating, payment transaction risk, content stealing Fraudulent behaviors such as scouring rankings and ordering, user fission, etc., to escort the growth of customer marketing ROI.",
+      "relativeUrl": "https://help.ishumei.com/docs/tw/sdk/overview"
+  },
+
+  {
+      "label": "Sodium",
+      "signature": "libsodium.so",
+      "tracker": "no",
+      "description": "A modern, portable, easy to use crypto library.",
+      "relativeUrl": "https://github.com/jedisct1/libsodium"
+  },
+
+  {
+      "label": "SQLCipher",
+      "signature": "libsqlcipher.so|libstlport_shared.so",
+      "tracker": "no",
+      "description": "SQLCipher is a SQLite extension that provides 256-bit AES encryption capabilities for database files.",
+      "relativeUrl": "https://github.com/sqlcipher/sqlcipher/"
+  },
+
+  {
+      "label": "SQLite",
+      "signature": "libsqlite.so|libsqlite3.so",
+      "tracker": "no",
+      "description": "SQLite is an ACID-compliant relational database management system, which is contained in a relatively small C library. Unlike many other database management systems, SQLite is not a client/server database engine, but is integrated in the user program. SQLite complies with ACID and implements most SQL standards. It uses dynamic, weakly typed SQL syntax.",
+      "relativeUrl": "https://www.sqlite.org/docs.html"
+  },
+
+  {
+      "label": "TDLib",
+      "signature": "libtdjni.so",
+      "tracker": "no",
+      "description": "TDLib is a cross-platform library used to build Telegram clients. Almost all programming languages u200bu200bcan easily use it.",
+      "relativeUrl": "https://core.telegram.org/tdlib/docs/index.html"
+  },
+
+  {
+      "label": "Tencent Location SDK",
+      "signature": "libtencentloc.so|libtxmapengine.so",
+      "tracker": "yes",
+      "description": "Tencent Map Location SDK is an application program interface based on Android 4.1 and above devices. Through this interface, you can easily use Tencent's map location service to build LBS applications.",
+      "relativeUrl": "https://lbs.qq.com/mobile/androidLocationSDK/androidGeoGuide/androidGeoOverview/"
+  },
+
+  {
+      "label": "TensorFlow Lite",
+      "signature": "libtensorflowlite_jni.so",
+      "tracker": "no",
+      "description": "TensorFlow Lite is a set of tools that can help developers run TensorFlow models on mobile devices, embedded devices, and IoT devices. It supports device-side machine learning inference, with low latency and small binary files.",
+      "relativeUrl": "https://www.tensorflow.org/lite"
+  },
+
+  {
+      "label": "Tencent MTP",
+      "signature": "libtersafe2.so",
+      "tracker": "yes",
+      "description": "Tencent Cloud Mobile Game Security (Mobile Tencent Protect, MTP) is a professional mobile game security solution provided by Tencent Cloud’s mobile security team and Tencent’s game security team. It includes two main functions: mobile game anti-plugging and mobile game reinforcement. It has 24 hours Security assurance capabilities, support for all-round multi-dimensional protection and detection, the client can complete access by calling 2-3 interfaces. MTP can help mobile game manufacturers quickly deal with common game security issues such as mobile game cheating, mobile game tampering and cracking, and has provided stable and secure services for hundreds of games such as King Glory, Naruto and more than 700 million players.",
+      "relativeUrl": "https://cloud.tencent.com/document/product/654/30316"
+  },
+
+  {
+      "label": "Android-TiffBitmapFactory",
+      "signature": "libtiff.so",
+      "tracker": "no",
+      "description": "TiffBitmapFactory is an Android library that allows opening and saving images in *.tif format on Android devices.",
+      "relativeUrl": "https://github.com/Beyka/Android-TiffBitmapFactory"
+  },
+
+  {
+      "label": "Torrent library for java",
+      "signature": "libtorrent4j.so",
+      "tracker": "no",
+      "description": "libtorrent for java, a swig Java interface for libtorrent.",
+      "relativeUrl": "https://github.com/aldenml/libtorrent4j"
+  },
+
+  {
+      "label": "Tencent TPNS",
+      "signature": "libtpnsSecurity.so|libxguardian.so",
+      "tracker": "yes",
+      "description": "Pigeon Push provides developers with a free, fast and simple push service.",
+      "relativeUrl": "https://xg.qq.com/docs/"
+  },
+
+  {
+      "label": "Tencent TRTC",
+      "signature": "libtraeimp-rtmp.so",
+      "tracker": "no",
+      "description": "Tencent Real-Time Communication (TRTC), based on Tencent’s 21 years of in-depth accumulation of network and audio and video technologies, uses two scenarios of multi-person audio and video calls and low-latency interactive live broadcasts through Tencent Cloud The service is open to developers and is committed to helping developers quickly build low-cost, low-latency, high-quality audio and video interactive solutions.",
+      "relativeUrl": "https://cloud.tencent.com/document/product/647/16788"
+  },
+
+  {
+      "label": "uCrop",
+      "signature": "libucrop.so",
+      "tracker": "no",
+      "description": "Android picture cropping library.",
+      "relativeUrl": "https://github.com/Yalantis/uCrop/"
+  },
+
+  {
+      "label": "Umeng",
+      "signature": "libumeng-spy.so",
+      "tracker": "yes",
+      "description": "U-App is a professional and free mobile statistical analysis product. Help you solve a variety of data-related issues in your daily business, such as data collection and management, business monitoring, user behavior analysis, App stability monitoring, and the realization of various operating solutions. Help Internet companies fully tap the value of user behavior data, find the iterative direction of product updates, achieve refined operations, and comprehensively improve business growth efficiency.",
+      "relativeUrl": "https://developer.umeng.com/docs/119267/detail/126061"
+  },
+
+  {
+      "label": "Weibo SDK",
+      "signature": "libutility.so|libweibosdkcore.so|libwind.so",
+      "tracker": "yes",
+      "description": "The Weibo Android platform SDK provides a simple and easy-to-use Weibo API call service for third-party applications, so that third-party clients can log in without having to understand complex authentication mechanisms, and provide Weibo sharing functions, which can be directly accessed through Weibo. The official client shares Weibo.",
+      "relativeUrl": "https://github.com/sinaweibosdk/weibo_android_sdk"
+  },
+
+  {
+      "label": "WCDB",
+      "signature": "libwcdb.so",
+      "tracker": "no",
+      "description": "WCDB is an efficient, complete and easy-to-use mobile database framework, based on SQLCipher, supporting iOS, macOS and Android.",
+      "relativeUrl": "https://github.com/Tencent/wcdb/"
+  },
+
+  {
+      "label": "Weex",
+      "signature": "libweexcore.so|libweexjsb.so|libweexjss.so|libweexjssr.so|libweexjst.so|libWeexEagle.so|libWTF.so",
+      "tracker": "no",
+      "description": "Weex is committed to enabling developers to build Android, iOS and Web applications based on a common cross-platform Web development language and development experience. Simply put, after integrating WeexSDK, you can use JavaScript language and front-end development experience to develop mobile applications.",
+      "relativeUrl": "https://weex.apache.org/"
+  },
+
+  {
+      "label": "Midas",
+      "signature": "libwtecdh.so",
+      "tracker": "no",
+      "description": "Midas is the only official virtual payment platform of Tencent. It natively supports payment channels such as Q currency, WeChat payment, QQ wallet, and QQ card.",
+      "relativeUrl": "https://wiki.midas.qq.com/index/index/1/"
+  },
+
+  {
+      "label": "xCrash",
+      "signature": "libxcrash.so|libxcrash_dumper.so",
+      "tracker": "no",
+      "description": "xCrash can provide the ability to capture Java crashes, native crashes and ANRs for Android apps. No root authority or any system authority is required.",
+      "relativeUrl": "https://github.com/iqiyi/xCrash/"
+  },
+
+  {
+      "label": "Tencent TPNS",
+      "signature": "libxgVipSecurity.so",
+      "tracker": "yes",
+      "description": "Mobile push TPNS (Tencent Push Notification Service) provides you with a stable, fast and high-arrival APP push service. Its access is convenient and fast, with industry-leading technical strength, stable and reliable message push channel, and unique optional dual-service joint keep-alive service, which can effectively increase the message arrival rate; the system can accommodate 18 million push messages per minute. It can reach within seconds (supporting Tencent's internal application push tools such as King Glory); in addition, it has the ability to accurately label users, which effectively helps the refined operation of APP. ",
+      "relativeUrl": "https://cloud.tencent.com/product/tpns"
+  },
+
+  {
+      "label": "xHook",
+      "signature": "libxhook_lib.so",
+      "tracker": "no",
+      "description": "xHook is a PLT (Procedure Linkage Table) hook library for the Android platform ELF (executable file and dynamic library).",
+      "relativeUrl": "https://github.com/iqiyi/xHook"
+  },
+
+  {
+      "label": "xLua",
+      "signature": "libxlua.so",
+      "tracker": "no",
+      "description": "xLua adds Lua script programming capabilities to C# environments such as Unity, .Net, Mono, etc. With xLua, these Lua codes can be easily called with C#.",
+      "relativeUrl": "https://github.com/Tencent/xLua"
+  },
+
+  {
+      "label": "libYUV",
+      "signature": "libyuv.so",
+      "tracker": "no",
+      "description": "libYUV is Google's open source yuv image processing library, which realizes the conversion between various yuv data, including data conversion, cropping, scaling, and rotation.",
+      "relativeUrl": "https://chromium.googlesource.com/libyuv/libyuv/"
+  },
+
+  {
+      "label": "ZBar",
+      "signature": "libzbar.so|libzbarjni.so",
+      "tracker": "no",
+      "description": "ZBar is an open source software suite for reading barcodes from various sources. It supports many popular barcode types, including EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 39, Cross 2 /5 code (Interleaved 2 of 5) and QR code (QR Code)",
+      "relativeUrl": "http://zbar.sourceforge.net/"
+  }
+]
