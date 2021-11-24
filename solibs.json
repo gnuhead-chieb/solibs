@@ -281,7 +281,7 @@
   },
   {
       "label": "Bugsnag",
-      "signature": "libbugsnag-ndk\\.so|libbugsnag-plugin-android-anr\\.so",
+      "signature": "libbugsnag-ndk\\.so|libbugsnag-plugin-android-anr\\.so|libbugsnag-root-detection\\.so",
       "tracker": "yes",
       "description": "Bugsnag's Android crash report library will automatically detect crashes in Android applications, collect diagnostic information and immediately notify your development team to help you understand and solve the problem as soon as possible.",
       "relativeUrl": "https://github.com/bugsnag/bugsnag-android"
@@ -295,7 +295,7 @@
   },
   {
       "label": "libchrome",
-      "signature": "libchrome\\.so",
+      "signature": "libchrome\\.so|libchrome_crashpad_handler\\.so|libchromium_android_linker\\.so",
       "tracker": "no",
       "description": "The Chromium project has an general utility library referred to as libbase. Because it is standalone and does not depend on any other parts of Chromium, it has been been picked up by other Google related projects so people don't have to reinvent these things. Along those lines, a package in Chromium OS is provided so that projects specific to us can share the code without having to bundle it multiple times over. Currently, there are over 20 such projects in Chromium OS. To keep people on their toes, the package is named libchrome as libbase by itself is too confusing. Granted, libchrome isn‘t exactly clear itself, but it’s a lose-lose situation, and we tried our best. Please still love us.",
       "relativeUrl": "https://chromium.googlesource.com/chromiumos/docs/+/master/packages/libchrome.md"
@@ -897,7 +897,7 @@
   },
   {
       "label": "libYUV",
-      "signature": "libyuv\\.so",
+      "signature": "libyuv\\.so|libyuv_to_rgb_jni\\.so",
       "tracker": "no",
       "description": "libYUV is Google's open source yuv image processing library, which realizes the conversion between various yuv data, including data conversion, cropping, scaling, and rotation.",
       "relativeUrl": "https://chromium.googlesource.com/libyuv/libyuv/"
@@ -1077,7 +1077,6 @@
       "description": "embeddable Javascript engine with a focus on portability and compact footprint ",
       "relativeUrl": "https://github.com/svaarala/duktape/"
   },
-
   {
       "label": "QuickJS",
       "signature": "libquickjs\\.so",
@@ -1091,5 +1090,54 @@
       "tracker": "no",
       "description": "integrate with Epic Account Services and Epic Games Store. ",
       "relativeUrl": "https://dev.epicgames.com/docs/services/en-US/GameServices/Platforms/Android/index.html"
+  },
+  {
+      "label": "BASS audio library",
+      "signature": "libbass\\.so|libbass_aac\\.so|libbass_fx\\.so|libbassopus\\.so|libbass_ssl\\.so",
+      "tracker": "no",
+      "description": "BASS is an audio library for use in software on several platforms.",
+      "relativeUrl": "https://www.un4seen.com/bass.html"
+  },
+  {
+      "label": "libffi",
+      "signature": "libffi\\.so",
+      "tracker": "no",
+      "description": "A portable foreign-function interface library. ",
+      "relativeUrl": "https://github.com/libffi/libffi"
+  },
+  {
+      "label": "Chaquopy",
+      "signature": "chaquopy\\.so|libcrypto_chaquopy\\.so|libssl_chaquopy\\.so|libchaquopy_java\\.so|chaquopy_android\\.so|libsqlite3_chaquopy\\.so",
+      "tracker": "no",
+      "description": "The easiest way to use Python in an Android app",
+      "relativeUrl": "https://google.com/"
+  },
+  {
+      "label": "python-for-android",
+      "signature": "libpython.*\\.so",
+      "tracker": "no",
+      "description": "python-for-android is a packaging tool for Python apps on Android. ",
+      "relativeUrl": "https://github.com/kivy/python-for-android/tree/master"
+  },
+  {
+      "label": "OpenVPN for Android",
+      "signature": "libopenvpn\\.so|libopvpnutil\\.so|libovpnexec\\.so|libjbcrypto\\.so",
+      "tracker": "no",
+      "description": "With the new VPNService of Android API level 14+ (Ice Cream Sandwich) it is possible to create a VPN service that does not need root access. This project is a port of OpenVPN.",
+      "relativeUrl": "https://github.com/schwabe/ics-openvpn"
+  },
+  {
+      "label": "NSPR",
+      "signature": "libnspr4.so|libplc4\\.so|libplds4\\.so",
+      "tracker": "no",
+      "description": "Netscape Portable Runtime (NSPR) provides a platform-neutral API for system level and libc like functions.",
+      "relativeUrl": "https://www.linuxfromscratch.org/blfs/view/svn/general/nspr.html"
+  },
+  {
+      "label": "libsecp256k1",
+      "signature": "libsecp256k1\\.so",
+      "tracker": "no",
+      "description": "Optimized C library for ECDSA signatures and secret/public key operations on curve secp256k1.",
+      "relativeUrl": "https://github.com/bitcoin-core/secp256k1"
   }
 ]
