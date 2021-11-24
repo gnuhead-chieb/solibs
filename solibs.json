@@ -99,7 +99,7 @@
   },
   {
       "label": "MNN",
-      "signature": "libMNN\\.so|libMNN_CL\\.so|libMNN_Express\\.so",
+      "signature": "libMNN\\.so|libMNN_CL\\.so|libMNN_Express\\.so|libmnnkitcore\\.so|libmnnpybridge\\.so|libmnnface\\.so",
       "tracker": "no",
       "description": "MNN is an efficient and lightweight deep learning framework. It supports deep model reasoning and training, especially in the end-side reasoning and training performance in the industry's leading position.",
       "relativeUrl": "https://github.com/alibaba/MNN"
@@ -134,7 +134,7 @@
   },
   {
       "label": "libSDL",
-      "signature": "libSDL2\\.so|libSDL2_ttf\\.so",
+      "signature": "libSDL2\\.so|libSDL2_ttf\\.so|libSDL2_mixer\\.so",
       "tracker": "no",
       "description": "SDL is a cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick, and graphics hardware through OpenGL and Direct3D. It is used by video playback software, emulators, and popular games, including Valve's award-winning catalog and many Humble Bundle games.    ",
       "relativeUrl": "https://www.libsdl.org"
@@ -169,7 +169,7 @@
   },
   {
       "label": "WebRTC",
-      "signature": "libagora-rtc-sdk-jni\\.so|libjingle_peerconnection_so\\.so",
+      "signature": "libjingle_peerconnection_so\\.so",
       "tracker": "no",
       "description": "With WebRTC, you can add real-time communication capabilities to applications based on open standards. It supports sending video, voice and general data between peers, thereby enabling developers to build powerful voice and video communication solutions. This technology can be used on all modern browsers and native clients on all major platforms. The technology behind WebRTC is implemented as an open web standard and is provided as a regular JavaScript API in all major browsers.",
       "relativeUrl": "https://webrtc.org/"
@@ -343,15 +343,8 @@
       "relativeUrl": "https://yueying-docs.effirst.com/"
   },
   {
-      "label": "CRI Sofdec2 Unity",
-      "signature": "libcri_mana_vpx\\.so",
-      "tracker": "no",
-      "description": "CRIWARE is used for video playback decoding components.",
-      "relativeUrl": "https://game.criware.jp/manual/unity_plugin/latest/contents/group__CRIMANA__UNITY__COMPONENT.html"
-  },
-  {
-      "label": "CRI ADX2 Unity",
-      "signature": "libcri_ware_unity\\.so",
+      "label": "Criware",
+      "signature": "libcri_ware_unity\\.so|libcri_mana_vpx\\.so|libcriafx_roll\\.so",
       "tracker": "no",
       "description": "Sound system plug-ins in Unity that can be used for commercial game development. Special tools can be downloaded from the support website to edit the sound, and technical support is also provided on the website.",
       "relativeUrl": "https://assetstore.unity.com/packages/tools/audio/cri-adx2-unity-plugin-assetstore-100086"
@@ -428,7 +421,7 @@
   },
   {
       "label": "GCanvas",
-      "signature": "libgcanvas\\.so",
+      "signature": "libgcanvas\\.so|libgcanvas_view\\.so",
       "tracker": "no",
       "description": "GCanvas is a cross-platform canvas solution that implements graphics 2D and WebGL API. GCanvas enables its users to directly access the OpenGL ES API. GCanvas aims to solve the performance and compatibility issues of JavaScript developers' canvas.",
       "relativeUrl": "https://alibaba.github.io/GCanvas/"
@@ -612,7 +605,7 @@
       "label": "Megazord",
       "signature": "libmegazord\\.so",
       "tracker": "no",
-      "description": "Megazord packages multiple Rust components into a single \\.so file to reduce code size and increase ease of use.",
+      "description": "Megazord packages multiple Rust components into a single .so file to reduce code size and increase ease of use.",
       "relativeUrl": "https://github.com/mozilla/application-services/blob/main/docs/design/megazords.md"
   },
   {
@@ -641,7 +634,7 @@
       "signature": "libmp3lame\\.so",
       "tracker": "no",
       "description": "LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.",
-      "relativeUrl": "https://lame\\.sourceforge.io/"
+      "relativeUrl": "https://lame.sourceforge.io/"
   },
   {
       "label": "iFlytek SDK",
@@ -743,7 +736,7 @@
   },
   {
       "label": "Alibaba security",
-      "signature": "libsgavmp\\.so|libsgmain\\.so|libsgsecuritybody\\.so|libsgsgmiddletier\\.so",
+      "signature": "libsgavmp\\.so|libsgmain\\.so|libsgsecuritybody\\.so|libsgsgmiddletier\\.so|libsgmainso-.*\\.so|libsgmiscso-.*\\.so|libsgmiddletierso-.*\\.so|libsgnocaptchaso-.*\\.so|libsgmiddletier\\.so|libsgmisc\\.so|libsgnocaptcha\\.so",
       "tracker": "yes",
       "description": "Aliju Security is an open platform for developers with mobile application security as the core.",
       "relativeUrl": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=106477&docType=1"
@@ -914,7 +907,7 @@
       "signature": "libzbar\\.so|libzbarjni\\.so",
       "tracker": "no",
       "description": "ZBar is an open source software suite for reading barcodes from various sources. It supports many popular barcode types, including EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 39, Cross 2 /5 code (Interleaved 2 of 5) and QR code (QR Code)",
-      "relativeUrl": "http://zbar\\.sourceforge.net/"
+      "relativeUrl": "http://zbar.sourceforge.net/"
   },
   {
       "label": "Artemis Engine",
@@ -995,7 +988,7 @@
   },
   {
       "label": "INCA nProtect AppGuard",
-      "signature": "libstub.so|libcompatible\\.so|libcompatible_x86\\.so",
+      "signature": "libstub\\.so|libcompatible\\.so|libcompatible_x86\\.so",
       "tracker": "yes",
       "description": "nProtect AppGuard is a mobile in-app security solution that encompasses anti-cheating, anti-forgery and hardening capabilities such as anti-debugging, anti-emulation and encryption.",
       "relativeUrl": "https://appguard.nprotect.com/en/index.html"
@@ -1044,9 +1037,59 @@
   },
   {
       "label": "ObjectBox Java",
-      "signature": "libobjectbox-jni.so",
+      "signature": "libobjectbox-jni\\.so",
       "tracker": "no",
       "description": "ObjectBox is a superfast lightweight database for objects",
       "relativeUrl": "https://github.com/objectbox/objectbox-java"
   },
+  {
+      "label": "Zstandard",
+      "signature": "libzstd-jni\\.so",
+      "tracker": "no",
+      "description": "Fast real-time compression algorithm",
+      "relativeUrl": "https://github.com/facebook/zstd"
+  },
+  {
+      "label": "Youme",
+      "signature": "libyoume_voice_engine\\.so",
+      "tracker": "yes",
+      "description": "Comprehensive Communications SDK Built for Game Developers",
+      "relativeUrl": "https://youme.im/en/"
+  },
+  {
+      "label": "Agora",
+      "signature": "libagoraSdkCWrapper\\.so|libagora-rtc-sdk-jni\\.so",
+      "tracker": "yes",
+      "description": "Agora Real-Time Voice and Video Engagement",
+      "relativeUrl": "https://www.agora.io/en/"
+  },
+  {
+      "label": "SPAKE2-Java",
+      "signature": "libspake2\\.so",
+      "tracker": "no",
+      "description": "Implementation of SPAKE2 protocol in Java, fully compatible with BoringSSL implementation.",
+      "relativeUrl": "https://github.com/MuntashirAkon/spake2-java"
+  },
+  {
+      "label": "Duktape",
+      "signature": "libduktape\\.so",
+      "tracker": "no",
+      "description": "embeddable Javascript engine with a focus on portability and compact footprint ",
+      "relativeUrl": "https://github.com/svaarala/duktape/"
+  },
+
+  {
+      "label": "QuickJS",
+      "signature": "libquickjs\\.so",
+      "tracker": "no",
+      "description": "QuickJS is a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators, proxies and BigInt. ",
+      "relativeUrl": "https://bellard.org/quickjs/"
+  },
+  {
+      "label": "Epic Online Services SDK",
+      "signature": "libEOSSDK\\.so",
+      "tracker": "no",
+      "description": "integrate with Epic Account Services and Epic Games Store. ",
+      "relativeUrl": "https://dev.epicgames.com/docs/services/en-US/GameServices/Platforms/Android/index.html"
+  }
 ]
