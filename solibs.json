@@ -239,7 +239,7 @@
   },
   {
       "label": "FFmpeg",
-      "signature": "libavcodec\\.so|libavdevice\\.so|libavfilter\\.so|libavformat\\.so|libavutil\\.so|libswresample\\.so|libswscale\\.so",
+      "signature": "libavcodec\\.so|libavdevice\\.so|libavfilter\\.so|libavformat\\.so|libavutil\\.so|libswresample\\.so|libswscale\\.so|libffmpeg\\.so|libffmpeg-android\\.so",
       "tracker": "no",
       "description": "FFmpeg is a leading multimedia framework, capable of decoding, encoding, transcoding, MUX, DEMUX, streaming, filtering and playing almost all content created by humans and machines.",
       "relativeUrl": "http://www.ffmpeg.org/libavcodec.html"
@@ -1034,5 +1034,19 @@
       "tracker": "no",
       "description": "libvpx is a free software video codec library from Google and the Alliance for Open Media.",
       "relativeUrl": "https://github.com/webmproject/libvpx/"
-  }
+  },
+  {
+      "label": "Android-GPUImage-Plus",
+      "signature": "libCGE\\.so|libCGEExt\\.so",
+      "tracker": "no",
+      "description": "Android Image & Camera Filters Based on OpenGL. ",
+      "relativeUrl": "https://github.com/wysaid/android-gpuimage-plus"
+  },
+  {
+      "label": "ObjectBox Java",
+      "signature": "libobjectbox-jni.so",
+      "tracker": "no",
+      "description": "ObjectBox is a superfast lightweight database for objects",
+      "relativeUrl": "https://github.com/objectbox/objectbox-java"
+  },
 ]
