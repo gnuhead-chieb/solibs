@@ -15,7 +15,7 @@
   },
   {
       "label": "DuMix",
-      "signature": "libBaiduSpeechSDK\\.so|libImgRecognition\\.so|libbdEASRAndroid\\.so|libbdSpilWakeup\\.so|libvad.dnn\\.so",
+      "signature": "libBaiduSpeechSDK\\.so|libImgRecognition\\.so|libbdEASRAndroid\\.so|libbdSpilWakeup\\.so|libvad\\.dnn\\.so",
       "tracker": "no",
       "description": "The DuMix AR platform is an AR technology product application service launched by Baidu AR, which helps developers quickly integrate SDKs and efficiently produce and distribute AR content. It includes AR SDK, content production tools, cloud content platform and content distribution services, forming a one-stop AR development integrated solution.",
       "relativeUrl": "https://github.com/baidu/ar-sdk/"
@@ -183,7 +183,7 @@
   },
   {
       "label": "Xamarin",
-      "signature": "libaot-mscorlib.dll\\.so|libmono-btls-shared\\.so|libmono-native\\.so|libmonodroid\\.so|libmonodroid_bundle_app\\.so|libmonosgen-2.0\\.so|libxamarin-app\\.so",
+      "signature": "libaot-mscorlib.dll\\.so|libmono-btls-shared\\.so|libmono-native\\.so|libmonodroid\\.so|libmonodroid_bundle_app\\.so|libmonosgen-.*\\.so|libxamarin-app\\.so",
       "tracker": "no",
       "description": "Xamarin is a cross-platform development software. By using the C# shared code base, developers can use Xamarin tools to write native Android, iOS and Windows applications using the local user interface, and share them across multiple platforms (including Windows and MacOS) Code.",
       "relativeUrl": "https://dotnet.microsoft.com/apps/xamarin/"
@@ -288,7 +288,7 @@
   },
   {
       "label": "C++ Shared Library",
-      "signature": "libc++_shared\\.so|libgnustl_shared\\.so",
+      "signature": "libc\\+\\+_shared\\.so|libgnustl_shared\\.so",
       "tracker": "no",
       "description": "Run native code in Android apps.",
       "relativeUrl": "https://developer.android.com/ndk/guides/cpp-support/"
