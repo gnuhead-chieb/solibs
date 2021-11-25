@@ -134,7 +134,7 @@
   },
   {
       "label": "libSDL",
-      "signature": "libSDL2\\.so|libSDL2_ttf\\.so|libSDL2_mixer\\.so",
+      "signature": "libSDL2\\.so|libSDL2_ttf\\.so|libSDL2_mixer\\.so|libSDL2_image\\.so",
       "tracker": "no",
       "description": "SDL is a cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick, and graphics hardware through OpenGL and Direct3D. It is used by video playback software, emulators, and popular games, including Valve's award-winning catalog and many Humble Bundle games.    ",
       "relativeUrl": "https://www.libsdl.org"
@@ -246,7 +246,7 @@
   },
   {
       "label": "Fresco",
-      "signature": "libbitmaps\\.so|libgifimage\\.so|libimagepipeline\\.so|libmemchunk\\.so|libnative-filters\\.so|libnative-imagetranscoder\\.so|libstatic-webp\\.so|libwebp\\.so|libwebpimage\\.so",
+      "signature": "libbitmaps\\.so|libgifimage\\.so|libimagepipeline\\.so|libmemchunk\\.so|libnative-filters\\.so|libnative-imagetranscoder\\.so|libstatic-webp\\.so|libwebp\\.so|libwebpimage\\.so|libnative-file-access\\.so",
       "tracker": "no",
       "description": "Fresco is an Android library for managing images and the memory they use.",
       "relativeUrl": "https://github.com/facebook/fresco/"
@@ -1110,7 +1110,7 @@
       "signature": "chaquopy\\.so|libcrypto_chaquopy\\.so|libssl_chaquopy\\.so|libchaquopy_java\\.so|chaquopy_android\\.so|libsqlite3_chaquopy\\.so",
       "tracker": "no",
       "description": "The easiest way to use Python in an Android app",
-      "relativeUrl": "https://google.com/"
+      "relativeUrl": "https://chaquo.com/chaquopy/"
   },
   {
       "label": "python-for-android",
@@ -1139,5 +1139,68 @@
       "tracker": "no",
       "description": "Optimized C library for ECDSA signatures and secret/public key operations on curve secp256k1.",
       "relativeUrl": "https://github.com/bitcoin-core/secp256k1"
+  },
+  {
+      "label": "FFmpegKit",
+      "signature": "libffmpegkit\\.so|libffmpegkit_abidetect\\.so",
+      "tracker": "no",
+      "description": "FFmpegKit is a collection of tools to use FFmpeg in Android, iOS, macOS, tvOS, Flutter and React Native applications.",
+      "relativeUrl": "https://github.com/tanersener/ffmpeg-kit"
+  },
+  {
+      "label": "Olm",
+      "signature": "libolm\\.so",
+      "tracker": "no",
+      "description": "Implementation of the olm and megolm cryptographic ratchets",
+      "relativeUrl": "https://gitlab.matrix.org/matrix-org/olm"
+  },
+  {
+      "label": "Libavresample",
+      "signature": "libavresample\\.so",
+      "tracker": "no",
+      "description": "Libavresample (lavr) is a library that handles audio resampling, sample format conversion and mixing.",
+      "relativeUrl": "https://libav.org/documentation/doxygen/master/group__lavr.html"
+  },
+  {
+      "label": "JUCE",
+      "signature": "libjuce_jni\\.so",
+      "tracker": "no",
+      "description": "Deliver music applications on all main platforms, with high performances and professional tools",
+      "relativeUrl": "https://juce.com"
+  },
+  {
+      "label": "7-Zip-JBinding",
+      "signature": "lib7-Zip-JBinding\\.so",
+      "tracker": "no",
+      "description": "Java wrapper for 7z archiver engine",
+      "relativeUrl": "https://sourceforge.net/projects/sevenzipjbind/"
+  },
+  {
+      "label": "HIDAPI",
+      "signature": "libhidapi\\.so",
+      "tracker": "no",
+      "description": "multi-platform library which allows an application to interface with USB and Bluetooth HID-Class devices",
+      "relativeUrl": "https://github.com/libusb/hidapi"
+  },
+  {
+      "label": "Lua",
+      "signature": "liblua\\.so",
+      "tracker": "no",
+      "description": "Lua is a powerful, efficient, lightweight, embeddable scripting language. It supports procedural programming, object-oriented programming, functional programming, data-driven programming, and data description.",
+      "relativeUrl": "https://www.lua.org/"
+  },
+  {
+      "label": "libcharset",
+      "signature": "libcharset\\.so",
+      "tracker": "no",
+      "description": "portable character set determination library",
+      "relativeUrl": "https://www.haible.de/bruno/packages-libcharset.html"
+  },
+  {
+      "label": "CPU INFOrmation library",
+      "signature": "libcpuinfo\\.so",
+      "tracker": "no",
+      "description": "cpuinfo is a library to detect essential for performance optimization information about host CPU.",
+      "relativeUrl": "https://github.com/pytorch/cpuinfo"
   }
 ]
