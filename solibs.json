@@ -1202,5 +1202,19 @@
       "tracker": "no",
       "description": "cpuinfo is a library to detect essential for performance optimization information about host CPU.",
       "relativeUrl": "https://github.com/pytorch/cpuinfo"
+  },
+  {
+      "label": "Tesseract OCR",
+      "signature": "libtesseract\\.so",
+      "tracker": "no",
+      "description": "Tesseract Open Source OCR Engine (main repository) ",
+      "relativeUrl": "https://github.com/tesseract-ocr/tesseract"
+  },
+  {
+      "label": "Leptonica",
+      "signature": "libleptonica\\.so",
+      "tracker": "no",
+      "description": "Leptonica is a pedagogically-oriented open source library containing software that is broadly useful for image processing and image analysis applications.",
+      "relativeUrl": "https://github.com/danbloomberg/leptonica"
   }
 ]
