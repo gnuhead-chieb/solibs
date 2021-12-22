@@ -4,7 +4,7 @@
 ##Usage:
 ##      1. Connect phone to adb
 ##      2.Run script
-          ./find_missing.sh [OPTIONAL:solibs.json]
+##        ./find_missing.sh [OPTIONAL:solibs.json]
          
 signatures="$1"
 [ -z "$1" ] && signatures=solibs.json
