@@ -8,4 +8,4 @@
          
 signatures="$1"
 [ -z "$1" ] && signatures=solibs.json
-echo "pm list package | grep -vo -e \"^package:\" | xargs -n 1 -P 0 pm path | grep -vo -e \"^package:\" | xargs -n 1 zip -sf -r | grep -e '\.so$' | awk -F/ '{print \$NF}'" | adb shell | sort | uniq | grep -vP $(jq -r .[].signature /home/toor/ドキュメント/solibs.json | sed -z "s/\n/|/g" | sed -e "s/|$//g")
+echo "pm list package | grep -vo -e \"^package:\" | xargs -n 1 -P 0 pm path | grep -vo -e \"^package:\" | xargs -n 1 zip -sf -r | grep -e '\.so$' | awk -F/ '{print \$NF}'" | adb shell | sort | uniq | grep -vP $(jq -r .[].signature $signatures | sed -z "s/\n/|/g" | sed -e "s/|$//g")
