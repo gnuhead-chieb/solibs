@@ -113,7 +113,7 @@
   },
   {
       "label": "RenderScript",
-      "signature": "libRSSupport\\.so|librsjni\\.so|librsjni_androidx\\.so",
+      "signature": "libRSSupport\\.so|librsjni\\.so|librsjni_androidx\\.so|librs\\.analyze\\.so|librs\\.rotate\\.so",
       "tracker": "no",
       "description": "RenderScript is a framework for running computationally intensive tasks with high performance on Android. RenderScript is mainly used for data parallel computing, but serial workloads can also benefit from it. The RenderScript runtime can schedule work in parallel among multiple processors (such as multi-core CPUs and GPUs) provided on the device. This way you can focus on expressing algorithms instead of scheduling work. RenderScript is especially useful for applications that perform image processing, computational photography, or computer vision.",
       "relativeUrl": "https://developer.android.com/guide/topics/renderscript/compute/"
@@ -1294,4 +1294,18 @@
       "description": "Embed customized video experiences into your applications at scale with Twilio Video.",
       "relativeUrl": "https://www.twilio.com/video-api"
   },
+  {
+      "label": "RapidFuzz-Android",
+      "signature": "librapidfuzz\\.so",
+      "tracker": "no",
+      "description": "Java JNI implementation of RapidFuzz-CPP library.",
+      "relativeUrl": "https://github.com/MuntashirAkon/rapidfuzz-android"
+  },
+  {
+      "label": "SenseME",
+      "signature": "libst_mobile\\.so|libstmobile_jni\\.so",
+      "tracker": "yes",
+      "description": "enables a broad range of IoT devices to facilitate perception intelligence and content enhancement.",
+      "relativeUrl": "https://www.sensetime.com/en/product-business?categoryId=33106&gioNav=1"
+  }
 ]
