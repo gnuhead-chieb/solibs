@@ -247,7 +247,7 @@
   {
       "label": "Bmob",
       "signature": "libbmob\\.so",
-      "tracker": "no",
+      "tracker": "yes",
       "description": "Bmob back-end cloud focuses on providing a complete set of back-end cloud services for mobile applications, helping developers to avoid almost all server-side coding workload, and exponentially reducing development costs and development time.",
       "relativeUrl": "http://doc.bmob.cn/"
   },
@@ -1286,5 +1286,12 @@
       "tracker": "yes",
       "description": "Unity plugin that greatly simplifies the implementation of the de facto standard features every mobile game needs.",
       "relativeUrl": "https://www.easymobile.sglibgames.com/"
-  }
+  },
+  {
+      "label": "Twilio Video API",
+      "signature": "libtwilio_video_android_so\\.so",
+      "tracker": "no",
+      "description": "Embed customized video experiences into your applications at scale with Twilio Video.",
+      "relativeUrl": "https://www.twilio.com/video-api"
+  },
 ]
