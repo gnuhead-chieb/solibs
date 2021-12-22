@@ -652,7 +652,7 @@
   },
   {
       "label": "OpenCV",
-      "signature": "libopencv_core\\.so|libopencv_imgproc\\.so|libopencv_java3\\.so|libopencv_java4\\.so",
+      "signature": "libopencv_core\\.so|libopencv_imgproc\\.so|libopencv_java3\\.so|libopencv_java4\\.so|libopencv_highgui\\.so",
       "tracker": "no",
       "description": "OpenCV is a cross-platform computer vision library that can be used to develop real-time image processing, computer vision, and pattern recognition programs.",
       "relativeUrl": "https://github.com/opencv/opencv/"
@@ -1342,5 +1342,5 @@
       "tracker": "no",
       "description": "The Trojan agent implemented by the Go, supports multiplex / routing functions / CDN Transfer / Shadowsocks Confused plugins, multi-platform, no dependence. ",
       "relativeUrl": "https://github.com/p4gefau1t/trojan-go"
-  },
+  }
 ]
