@@ -57,7 +57,7 @@
   },
   {
       "label": "Firebase Cloud Messaging",
-      "signature": "libFirebaseCppMessaging\\.so|libFirebaseCppApp-.*\\.so",
+      "signature": "libFirebaseCppMessaging\\.so|libFirebaseCppApp-.*\\.so|libFirebaseCppRemoteConfig\\.so|libFirebaseCppDynamicLinks\\.so",
       "tracker": "no",
       "description": "Firebase Cloud Messaging, also known as Firebase Cloud Messaging, formerly known as Google Cloud Messaging, is a cross-platform solution for messaging and notifications for Android, iOS, and web applications. It is currently available for free. The service is provided by Firebase, a company owned by Google. Firebase has announced its acquisition by Google on October 21, 2014.",
       "relativeUrl": "https://firebase.google.com/docs/cloud-messaging"
@@ -71,7 +71,7 @@
   },
   {
       "label": "React Native",
-      "signature": "libJavaScriptCore\\.so|libfolly_futures\\.so|libfolly_json\\.so|libglog_init\\.so|libjsc\\.so|libjscexecutor\\.so|libjsinspector\\.so|libreactnative\\.so|libreactnativeblob\\.so|libreactnativejni\\.so|libreactnativejnifb\\.so|libhermes-executor-release\\.so|libhermes-executor-debug\\.so|libhermes-inspector\\.so|libhermes\\.so|libjsijniprofiler\\.so|libfbjni\\.so",
+      "signature": "libJavaScriptCore\\.so|libfolly_futures\\.so|libfolly_json\\.so|libglog_init\\.so|libjsc\\.so|libjscexecutor\\.so|libjsinspector\\.so|libreactnative\\.so|libreactnativeblob\\.so|libreactnativejni\\.so|libreactnativejnifb\\.so|libhermes-executor-.*\\.so|libhermes-inspector\\.so|libhermes\\.so|libjsijniprofiler\\.so|libfbjni\\.so",
       "tracker": "no",
       "description": "React Native allows you to write native mobile applications using only JavaScript. It is consistent with React in terms of design principles, and uses a declarative component mechanism to build a colorful user interface.",
       "relativeUrl": "https://reactnative.dev/"
@@ -183,7 +183,7 @@
   },
   {
       "label": "Xamarin",
-      "signature": "libaot-mscorlib.dll\\.so|libmono-btls-shared\\.so|libmono-native\\.so|libmonodroid\\.so|libmonodroid_bundle_app\\.so|libmonosgen-.*\\.so|libxamarin-app\\.so",
+      "signature": "libaot-mscorlib.dll\\.so|libmono-btls-shared\\.so|libmono-native\\.so|libmonodroid\\.so|libmonodroid_bundle_app\\.so|libmonosgen-.*\\.so|libxamarin-app\\.so|libaot-.*\\.dll\\.so",
       "tracker": "no",
       "description": "Xamarin is a cross-platform development software. By using the C# shared code base, developers can use Xamarin tools to write native Android, iOS and Windows applications using the local user interface, and share them across multiple platforms (including Windows and MacOS) Code.",
       "relativeUrl": "https://dotnet.microsoft.com/apps/xamarin/"
@@ -239,7 +239,7 @@
   },
   {
       "label": "FFmpeg",
-      "signature": "libavcodec\\.so|libavdevice\\.so|libavfilter\\.so|libavformat\\.so|libavutil\\.so|libswresample\\.so|libswscale\\.so|libffmpeg\\.so|libffmpeg-android\\.so",
+      "signature": "libavcodec\\.so|libavdevice\\.so|libavfilter\\.so|libavformat\\.so|libavutil\\.so|libswresample\\.so|libswscale\\.so|libffmpeg\\.so|libffmpeg-android\\.so|lib\\.\\.ffmpeg\\.\\.so",
       "tracker": "no",
       "description": "FFmpeg is a leading multimedia framework, capable of decoding, encoding, transcoding, MUX, DEMUX, streaming, filtering and playing almost all content created by humans and machines.",
       "relativeUrl": "http://www.ffmpeg.org/libavcodec.html"
@@ -281,14 +281,14 @@
   },
   {
       "label": "Bugsnag",
-      "signature": "libbugsnag-ndk\\.so|libbugsnag-plugin-android-anr\\.so|libbugsnag-root-detection\\.so",
+      "signature": "libbugsnag-ndk\\.so|libbugsnag-plugin-android-anr\\.so|libbugsnag-root-detection\\.so|libbugsnag-unity\\.so",
       "tracker": "yes",
       "description": "Bugsnag's Android crash report library will automatically detect crashes in Android applications, collect diagnostic information and immediately notify your development team to help you understand and solve the problem as soon as possible.",
       "relativeUrl": "https://github.com/bugsnag/bugsnag-android"
   },
   {
       "label": "C++ Shared Library",
-      "signature": "libc\\+\\+_shared\\.so|libgnustl_shared\\.so",
+      "signature": "libc\\+\\+_shared\\.so|libgnustl_shared\\.so|libCXXCommonKit\\.so",
       "tracker": "no",
       "description": "Run native code in Android apps.",
       "relativeUrl": "https://developer.android.com/ndk/guides/cpp-support/"
@@ -666,7 +666,7 @@
   },
   {
       "label": "Opus",
-      "signature": "libopus\\.so|libopusJNI\\.so",
+      "signature": "libopus\\.so|libopusJNI\\.so|libogg\\.so|libogg_opus_encoder\\.so|libogg_opus_encoder_translate\\.so|libopusV2JNI\\.so|libopusfile\\.so|libopusvadjava\\.so",
       "tracker": "no",
       "description": "Opus is a codec used for interactive voice and audio transmission over the network",
       "relativeUrl": "https://gitlab.xiph.org/xiph/opus"
@@ -736,7 +736,7 @@
   },
   {
       "label": "Alibaba security",
-      "signature": "libsgavmp\\.so|libsgmain\\.so|libsgsecuritybody\\.so|libsgsgmiddletier\\.so|libsgmainso-.*\\.so|libsgmiscso-.*\\.so|libsgmiddletierso-.*\\.so|libsgnocaptchaso-.*\\.so|libsgmiddletier\\.so|libsgmisc\\.so|libsgnocaptcha\\.so",
+      "signature": "libsgavmp\\.so|libsgmain\\.so|libsgsecuritybody\\.so|libsgsgmiddletier\\.so|libsgmainso-.*\\.so|libsgmiscso-.*\\.so|libsgmiddletierso-.*\\.so|libsgnocaptchaso-.*\\.so|libsgmiddletier\\.so|libsgmisc\\.so|libsgnocaptcha\\.so|libsgsecuritybodyso-.*\\.so|libAPSE_.*\\.so",
       "tracker": "yes",
       "description": "Aliju Security is an open platform for developers with mobile application security as the core.",
       "relativeUrl": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=106477&docType=1"
@@ -764,7 +764,7 @@
   },
   {
       "label": "SQLite",
-      "signature": "libsqlite\\.so|libsqlite3\\.so",
+      "signature": "libsqlite\\.so|libsqlite3\\.so|libsqlite3x\\.so|libsqliteX\\.so",
       "tracker": "no",
       "description": "SQLite is an ACID-compliant relational database management system, which is contained in a relatively small C library. Unlike many other database management systems, SQLite is not a client/server database engine, but is integrated in the user program. SQLite complies with ACID and implements most SQL standards. It uses dynamic, weakly typed SQL syntax.",
       "relativeUrl": "https://www.sqlite.org/docs.html"
@@ -785,7 +785,7 @@
   },
   {
       "label": "TensorFlow Lite",
-      "signature": "libtensorflowlite_jni\\.so|libtensorflowlite_gpu_jni\\.so",
+      "signature": "libtensorflowlite_jni\\.so|libtensorflowlite_gpu_jni\\.so|libtensorflow_jni\\.so",
       "tracker": "no",
       "description": "TensorFlow Lite is a set of tools that can help developers run TensorFlow models on mobile devices, embedded devices, and IoT devices. It supports device-side machine learning inference, with low latency and small binary files.",
       "relativeUrl": "https://www.tensorflow.org/lite"
@@ -1023,7 +1023,7 @@
   },
   {
       "label": "libvpx",
-      "signature": "libvpx\\.so|libvpxV2JNI\\.so",
+      "signature": "libvpx\\.so|libvpxV2JNI\\.so|libvpxYTJNI\\.so",
       "tracker": "no",
       "description": "libvpx is a free software video codec library from Google and the Alliance for Open Media.",
       "relativeUrl": "https://github.com/webmproject/libvpx/"
@@ -1216,5 +1216,61 @@
       "tracker": "no",
       "description": "Leptonica is a pedagogically-oriented open source library containing software that is broadly useful for image processing and image analysis applications.",
       "relativeUrl": "https://github.com/danbloomberg/leptonica"
+  },
+  {
+      "label": "AVPro Video",
+      "signature": "libAVProVideo2Native\\.so|libAudio360-JNI\\.so|libAudio360\\.so",
+      "tracker": "no",
+      "description": "Advanced video playback for Unity",
+      "relativeUrl": "https://renderheads.com/products/avpro-video/"
+  },
+  {
+      "label": "Google Cardboard XR Plugin for Unity",
+      "signature": "libcardboard_xr_unity\\.so",
+      "tracker": "no",
+      "description": "This SDK provides everything you need to create your own Virtual Reality (VR) experiences for Google Cardboard in Unity 2019.4.25f1 or later.",
+      "relativeUrl": "https://github.com/googlevr/cardboard-xr-plugin"
+  },
+  {
+      "label": "MobileFFmpeg",
+      "signature": "libmobileffmpeg\\.so|libmobileffmpeg_abidetect\\.so",
+      "tracker": "no",
+      "description": "FFmpeg for Android, iOS and tvOS. Not maintained anymore. Superseded by FFmpegKit.",
+      "relativeUrl": "https://github.com/tanersener/mobile-ffmpeg"
+  },
+  {
+      "label": "Cardboard SDK",
+      "signature": "libcardboard_api\\.so|libcardboard_api_only_gles2\\.so|libcardboard_sdk_jni\\.so|libcardboard_unity_jni\\.so",
+      "tracker": "no",
+      "description": "This SDK provides everything you need to create your own Virtual Reality (VR) experiences for Google Cardboard.",
+      "relativeUrl": "https://github.com/googlevr/cardboard"
+  },
+  {
+      "label": "card.io SDK for Android",
+      "signature": "libcardioDecider\\.so|libcardioRecognizer\\.so|libcardioRecognizer_tegra2\\.so",
+      "tracker": "no",
+      "description": "card.io provides fast, easy credit card scanning in mobile apps.",
+      "relativeUrl": "https://github.com/card-io/card.io-Android-SDK"
+  },
+  {
+      "label": "Cronet",
+      "signature": "libcronet.*\\.so",
+      "tracker": "no",
+      "description": "Cronet is the Chromium network stack made available to Android apps as a library.",
+      "relativeUrl": "https://developer.android.com/guide/topics/connectivity/cronet/"
+  },
+  {
+      "label": "HSP3Dish",
+      "signature": "libhsp3dish\\.so",
+      "tracker": "no",
+      "description": "HSP3Dish is for building the operating environment of HSP3 on various devices.",
+      "relativeUrl": "https://www.onionsoft.net/hsp/v36en/doclib/hsp3dish_prog.htm"
+  },
+  {
+      "label": "V8 JavaScript engine",
+      "signature": "libjsengine-api\\.so|libjsengine-loadso\\.so|libjsengine-platform\\.so",
+      "tracker": "no",
+      "description": "V8 is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++.",
+      "relativeUrl": "https://v8.dev/"
   }
 ]
