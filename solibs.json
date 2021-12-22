@@ -834,7 +834,7 @@
   },
   {
       "label": "Weibo SDK",
-      "signature": "libutility\\.so|libweibosdkcore\\.so|libwind\\.so",
+      "signature": "libutility\\.so|libweibosdkcore\\.so|libwind\\.so|libsharewind\\.so",
       "tracker": "yes",
       "description": "The Weibo Android platform SDK provides a simple and easy-to-use Weibo API call service for third-party applications, so that third-party clients can log in without having to understand complex authentication mechanisms, and provide Weibo sharing functions, which can be directly accessed through Weibo. The official client shares Weibo.",
       "relativeUrl": "https://github.com/sinaweibosdk/weibo_android_sdk"
@@ -1307,5 +1307,40 @@
       "tracker": "yes",
       "description": "enables a broad range of IoT devices to facilitate perception intelligence and content enhancement.",
       "relativeUrl": "https://www.sensetime.com/en/product-business?categoryId=33106&gioNav=1"
-  }
+  },
+  {
+      "label": "Real person certification SDK",
+      "signature": "libALBiometricsJni\\.so",
+      "tracker": "yes",
+      "description": "Based on large data risk identification and biological characteristics, multi-scenarios, providing diversified dynamic certification service platforms, accurate identification and authentication of current actors.",
+      "relativeUrl": "https://jaq-doc.alibaba.com/docs/doc.htm?spm=a313e.7629140.0.0.246751c3G9nvDl&treeId=243&articleId=105524&docType=1"
+  },
+  {
+      "label": "360 reinforcement",
+      "signature": "libX86Bridge\\.so",
+      "tracker": "yes",
+      "description": "360 TDG is based on 360 core encryption technology, depth encryption to Android applications, can protect the safety technology products of the shell protection, protect the application away from malicious crack, anti-compilation, secondary packaging, memory crawler and other threats.",
+      "relativeUrl": "https://jiagu.360.cn/"
+  },
+  {
+      "label": "Lspatch",
+      "signature": "liblspd\\.so",
+      "tracker": "no",
+      "description": "LSPatch fork from Xpatch. LSPatch provides a way to insert dex and so into the target APK by repackaging. The following changes have been made since Xpatch",
+      "relativeUrl": "https://github.com/LSPosed/LSPatch"
+  },
+  {
+      "label": "Rime Core",
+      "signature": "librime\\.so|librime_jni\\.so",
+      "tracker": "no",
+      "description": "RIME input method engine core library.",
+      "relativeUrl": "https://github.com/rime/librime"
+  },
+  {
+      "label": "Trojan-Go",
+      "signature": "libtrojan-go\\.so",
+      "tracker": "no",
+      "description": "The Trojan agent implemented by the Go, supports multiplex / routing functions / CDN Transfer / Shadowsocks Confused plugins, multi-platform, no dependence. ",
+      "relativeUrl": "https://github.com/p4gefau1t/trojan-go"
+  },
 ]
