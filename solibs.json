@@ -7,16 +7,9 @@
       "relativeUrl": "http://msa-alliance.cn"
   },
   {
-      "label": "AVPro Video",
-      "signature": "libAVProLocal\\.so",
-      "tracker": "no",
-      "description": "AVPro Video is a multi-platform Unity plug-in for advanced video playback.",
-      "relativeUrl": "https://renderheads.com/products/avpro-video/"
-  },
-  {
       "label": "DuMix",
       "signature": "libBaiduSpeechSDK\\.so|libImgRecognition\\.so|libbdEASRAndroid\\.so|libbdSpilWakeup\\.so|libvad\\.dnn\\.so",
-      "tracker": "no",
+      "tracker": "yes",
       "description": "The DuMix AR platform is an AR technology product application service launched by Baidu AR, which helps developers quickly integrate SDKs and efficiently produce and distribute AR content. It includes AR SDK, content production tools, cloud content platform and content distribution services, forming a one-stop AR development integrated solution.",
       "relativeUrl": "https://github.com/baidu/ar-sdk/"
   },
@@ -71,7 +64,7 @@
   },
   {
       "label": "React Native",
-      "signature": "libJavaScriptCore\\.so|libfolly_futures\\.so|libfolly_json\\.so|libglog_init\\.so|libjsc\\.so|libjscexecutor\\.so|libjsinspector\\.so|libreactnative\\.so|libreactnativeblob\\.so|libreactnativejni\\.so|libreactnativejnifb\\.so|libhermes-executor-.*\\.so|libhermes-inspector\\.so|libhermes\\.so|libjsijniprofiler\\.so|libfbjni\\.so",
+      "signature": "libJavaScriptCore\\.so|libfolly_futures\\.so|libfolly_json\\.so|libglog_init\\.so|libjsc\\.so|libjscexecutor\\.so|libjsinspector\\.so|libreactnative\\.so|libreactnativeblob\\.so|libreactnativejni\\.so|libreactnativejnifb\\.so|libhermes-executor-.*\\.so|libhermes-inspector\\.so|libhermes\\.so|libjsijniprofiler\\.so|libfbjni\\.so|libreact_codegen_reactandroidspec\\.so|libreact_nativemodule_core\\.so|libreactnativeutilsjni\\.so|libreactperfloggerjni\\.so",
       "tracker": "no",
       "description": "React Native allows you to write native mobile applications using only JavaScript. It is consistent with React in terms of design principles, and uses a declarative component mechanism to build a colorful user interface.",
       "relativeUrl": "https://reactnative.dev/"
@@ -128,7 +121,7 @@
   {
       "label": "RongCloud IM SDK",
       "signature": "libRongIMLib\\.so",
-      "tracker": "no",
+      "tracker": "yes",
       "description": "IM instant messaging-SealTalk supports in-app social networking and other scenarios, experience single group chats, chat rooms, audio and video calls, small videos, dynamic expressions and other communication capabilities",
       "relativeUrl": "https://github.com/sealtalk/sealtalk-android"
   },
@@ -477,7 +470,7 @@
   },
   {
       "label": "Google VR SDK",
-      "signature": "libgvr\\.so",
+      "signature": "libgvr\\.so|libgvr_audio\\.so",
       "tracker": "no",
       "description": "Google VR for Android supports DayDream and Cardboard.",
       "relativeUrl": "https://github.com/googlevr/gvr-android-sdk"
@@ -1219,7 +1212,7 @@
   },
   {
       "label": "AVPro Video",
-      "signature": "libAVProVideo2Native\\.so|libAudio360-JNI\\.so|libAudio360\\.so",
+      "signature": "libAVProLocal\\.so|libAVProVideo2Native\\.so|libAudio360-JNI\\.so|libAudio360\\.so",
       "tracker": "no",
       "description": "Advanced video playback for Unity",
       "relativeUrl": "https://renderheads.com/products/avpro-video/"
@@ -1268,9 +1261,30 @@
   },
   {
       "label": "V8 JavaScript engine",
-      "signature": "libjsengine-api\\.so|libjsengine-loadso\\.so|libjsengine-platform\\.so",
+      "signature": "libjsengine-api\\.so|libjsengine-loadso\\.so|libjsengine-platform\\.so|libv8\\.cr\\.so|libv8_libbase\\.cr\\.so|libv8_libplatform\\.cr\\.so",
       "tracker": "no",
       "description": "V8 is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++.",
       "relativeUrl": "https://v8.dev/"
+  },
+  {
+      "label": "FMOD",
+      "signature": "libfmod\\.so",
+      "tracker": "no",
+      "description": "lets you build and edit audio in real-time.",
+      "relativeUrl": "https://fmod.com/"
+  },
+  {
+      "label": "Vorbis",
+      "signature": "libvorbis\\.so",
+      "tracker": "no",
+      "description": "Vorbis audio compression reference implementation",
+      "relativeUrl": "https://gitlab.xiph.org/xiph/vorbis"
+  },
+  {
+      "label": "Easy Mobile",
+      "signature": "libeasymobile\\.so",
+      "tracker": "yes",
+      "description": "Unity plugin that greatly simplifies the implementation of the de facto standard features every mobile game needs.",
+      "relativeUrl": "https://www.easymobile.sglibgames.com/"
   }
 ]
