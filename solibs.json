@@ -540,7 +540,7 @@
   },
   {
       "label": "360 Security",
-      "signature": "libjiagu\\.so|libjiagu_a64\\.so|libjiagu_x64\\.so|libjiagu_x86\\.so",
+      "signature": "libjiagu\\.so|libjiagu_a64\\.so|libjiagu_x64\\.so|libjiagu_x86\\.so|libX86Bridge\\.so",
       "tracker": "yes",
       "description": "360 Reinforced Security is a security technology product based on the 360 u200bu200bcore encryption technology that provides deep encryption and shell protection for Android applications, which can protect applications from malicious cracking, decompilation, secondary packaging, memory capture and other threats.",
       "relativeUrl": "https://jiagu.360.cn/"
@@ -1314,13 +1314,6 @@
       "tracker": "yes",
       "description": "Based on large data risk identification and biological characteristics, multi-scenarios, providing diversified dynamic certification service platforms, accurate identification and authentication of current actors.",
       "relativeUrl": "https://jaq-doc.alibaba.com/docs/doc.htm?spm=a313e.7629140.0.0.246751c3G9nvDl&treeId=243&articleId=105524&docType=1"
-  },
-  {
-      "label": "360 reinforcement",
-      "signature": "libX86Bridge\\.so",
-      "tracker": "yes",
-      "description": "360 TDG is based on 360 core encryption technology, depth encryption to Android applications, can protect the safety technology products of the shell protection, protect the application away from malicious crack, anti-compilation, secondary packaging, memory crawler and other threats.",
-      "relativeUrl": "https://jiagu.360.cn/"
   },
   {
       "label": "Lspatch",
