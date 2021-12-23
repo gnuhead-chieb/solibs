@@ -344,7 +344,7 @@
   },
   {
       "label": "OpenSSL",
-      "signature": "libcrypto\\.so|libopenssl\\.so|libssl\\.so",
+      "signature": "libcrypto\\.so|libopenssl\\.so|libssl\\.so|libssl.*\\.so",
       "tracker": "no",
       "description": "OpenSSL is a powerful, commercial-grade and full-featured toolkit for Transport Layer Security Protocol (TLS) and Secure Socket Layer (SSL) protocols.",
       "relativeUrl": "https://github.com/openssl/openssl"
@@ -743,14 +743,14 @@
   },
   {
       "label": "Sodium",
-      "signature": "libsodium\\.so",
+      "signature": "libsodium\\.so|libsodium-jni\\.so",
       "tracker": "no",
       "description": "A modern, portable, easy to use crypto library.",
       "relativeUrl": "https://github.com/jedisct1/libsodium"
   },
   {
       "label": "SQLCipher",
-      "signature": "libsqlcipher\\.so|libstlport_shared\\.so",
+      "signature": "libsqlcipher\\.so|libstlport_shared\\.so|libe_sqlcipher\\.so",
       "tracker": "no",
       "description": "SQLCipher is a SQLite extension that provides 256-bit AES encryption capabilities for database files.",
       "relativeUrl": "https://github.com/sqlcipher/sqlcipher/"
@@ -890,7 +890,7 @@
   },
   {
       "label": "libYUV",
-      "signature": "libyuv\\.so|libyuv_to_rgb_jni\\.so",
+      "signature": "libyuv\\.so|libyuv_to_rgb_jni\\.so|libyuv-decoder\\.so",
       "tracker": "no",
       "description": "libYUV is Google's open source yuv image processing library, which realizes the conversion between various yuv data, including data conversion, cropping, scaling, and rotation.",
       "relativeUrl": "https://chromium.googlesource.com/libyuv/libyuv/"
@@ -937,7 +937,7 @@
       "description": "Google Analytics is a free app measurement solution that provides insight on app usage and user engagement.",
       "relativeUrl": "https://firebase.google.com/docs/analytics/"
   },
-    {
+  {
       "label": "Java Native Access",
       "signature": "libjnidispatch\\.so",
       "tracker": "no",
@@ -981,7 +981,7 @@
   },
   {
       "label": "INCA nProtect AppGuard",
-      "signature": "libstub\\.so|libcompatible\\.so|libcompatible_x86\\.so",
+      "signature": "libstub\\.so|libcompatible\\.so|libcompatible_x86\\.so|libengine-hlp\\.so|libengine\\.so",
       "tracker": "yes",
       "description": "nProtect AppGuard is a mobile in-app security solution that encompasses anti-cheating, anti-forgery and hardening capabilities such as anti-debugging, anti-emulation and encryption.",
       "relativeUrl": "https://appguard.nprotect.com/en/index.html"
@@ -1219,7 +1219,7 @@
   },
   {
       "label": "Google Cardboard XR Plugin for Unity",
-      "signature": "libcardboard_xr_unity\\.so",
+      "signature": "libcardboard_xr_unity\\.so|libCardboardXrProvider\\.so",
       "tracker": "no",
       "description": "This SDK provides everything you need to create your own Virtual Reality (VR) experiences for Google Cardboard in Unity 2019.4.25f1 or later.",
       "relativeUrl": "https://github.com/googlevr/cardboard-xr-plugin"
@@ -1335,5 +1335,26 @@
       "tracker": "no",
       "description": "The Trojan agent implemented by the Go, supports multiplex / routing functions / CDN Transfer / Shadowsocks Confused plugins, multi-platform, no dependence. ",
       "relativeUrl": "https://github.com/p4gefau1t/trojan-go"
-  }
+  },
+  {
+      "label": "Speex",
+      "signature": "libSpeex\\.so",
+      "tracker": "no",
+      "description": "Speex is an Open Source/Free Software patent-free audio compression format designed for speech.",
+      "relativeUrl": "https://speex.org/"
+  },
+  {
+      "label": "Tor Android",
+      "signature": "lib[Tt]or\\.so",
+      "tracker": "no",
+      "description": "Tor binary and library for Android",
+      "relativeUrl": "https://github.com/guardianproject/tor-android"
+  },
+  {
+      "label": "Boost",
+      "signature": "libboost_filesystem\\.so|libboost_system\\.so",
+      "tracker": "no",
+      "description": "Boost provides free peer-reviewed portable C++ source libraries.",
+      "relativeUrl": "https://www.boost.org/"
+  },
 ]
