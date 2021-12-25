@@ -329,8 +329,8 @@
       "relativeUrl": "https://firebase.google.com/docs/crashlytics/"
   },
   {
-      "label": "Yueying",
-      "signature": "libcrashsdk\\.so",
+      "label": "Yueying Crash SDK",
+      "signature": "libcrashsdk\\.so|libcrashsdk2\\.so",
       "tracker": "yes",
       "description": "Yueying Panorama Monitoring is an advanced mobile application online monitoring platform officially produced by Ali UC, which provides services for many well-known enterprises.",
       "relativeUrl": "https://yueying-docs.effirst.com/"
