@@ -176,7 +176,7 @@
   },
   {
       "label": "Xamarin",
-      "signature": "libaot-mscorlib.dll\\.so|libmono-btls-shared\\.so|libmono-native\\.so|libmonodroid\\.so|libmonodroid_bundle_app\\.so|libmonosgen-.*\\.so|libxamarin-app\\.so|libaot-.*\\.dll\\.so",
+      "signature": "libxa-internal-api\\.so|libmono-btls-shared\\.so|libmono-native\\.so|libmonodroid\\.so|libmonodroid_bundle_app\\.so|libmonosgen-.*\\.so|libxamarin-app\\.so|libaot-.*\\.dll\\.so",
       "tracker": "no",
       "description": "Xamarin is a cross-platform development software. By using the C# shared code base, developers can use Xamarin tools to write native Android, iOS and Windows applications using the local user interface, and share them across multiple platforms (including Windows and MacOS) Code.",
       "relativeUrl": "https://dotnet.microsoft.com/apps/xamarin/"
@@ -1356,5 +1356,12 @@
       "tracker": "no",
       "description": "Boost provides free peer-reviewed portable C++ source libraries.",
       "relativeUrl": "https://www.boost.org/"
+  },
+  {
+      "label": "Zstd-jni",
+      "signature": "libzstd-jni-.*\\.so",
+      "tracker": "no",
+      "description": "JNI bindings for Zstd native library that provides fast and high compression lossless algorithm for Android",
+      "relativeUrl": "https://github.com/luben/zstd-jni"
   }
 ]
