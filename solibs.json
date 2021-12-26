@@ -470,7 +470,7 @@
   },
   {
       "label": "Google VR SDK",
-      "signature": "libgvr\\.so|libgvr_audio\\.so",
+      "signature": "libgvr\\.so|libgvr_audio\\.so|libpanorenderer\\.so|libpano_video_renderer\\.so",
       "tracker": "no",
       "description": "Google VR for Android supports DayDream and Cardboard.",
       "relativeUrl": "https://github.com/googlevr/gvr-android-sdk"
@@ -1030,7 +1030,7 @@
   },
   {
       "label": "ObjectBox Java",
-      "signature": "libobjectbox-jni\\.so",
+      "signature": "libobjectbox\\.so|libobjectbox-jni\\.so",
       "tracker": "no",
       "description": "ObjectBox is a superfast lightweight database for objects",
       "relativeUrl": "https://github.com/objectbox/objectbox-java"
