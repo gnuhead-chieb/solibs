@@ -64,7 +64,7 @@
   },
   {
       "label": "React Native",
-      "signature": "libJavaScriptCore\\.so|libfolly_futures\\.so|libfolly_json\\.so|libglog_init\\.so|libjsc\\.so|libjscexecutor\\.so|libjsinspector\\.so|libreactnative\\.so|libreactnativeblob\\.so|libreactnativejni\\.so|libreactnativejnifb\\.so|libhermes-executor-.*\\.so|libhermes-inspector\\.so|libhermes\\.so|libjsijniprofiler\\.so|libfbjni\\.so|libreact_codegen_reactandroidspec\\.so|libreact_nativemodule_core\\.so|libreactnativeutilsjni\\.so|libreactperfloggerjni\\.so",
+      "signature": "libJavaScriptCore\\.so|libfolly_futures\\.so|libfolly_json\\.so|libglog_init\\.so|libjsc\\.so|libjscexecutor\\.so|libjsinspector\\.so|libreactnative\\.so|libreactnativeblob\\.so|libreactnativejni\\.so|libreactnativejnifb\\.so|libhermes-executor-.*\\.so|libhermes-inspector\\.so|libhermes\\.so|libjsijniprofiler\\.so|libfb\\.so|libfbjni\\.so|libreact_codegen_reactandroidspec\\.so|libreact_nativemodule_core\\.so|libreactnativeutilsjni\\.so|libreactperfloggerjni\\.so",
       "tracker": "no",
       "description": "React Native allows you to write native mobile applications using only JavaScript. It is consistent with React in terms of design principles, and uses a declarative component mechanism to build a colorful user interface.",
       "relativeUrl": "https://reactnative.dev/"
@@ -376,13 +376,6 @@
       "tracker": "no",
       "description": "Epic is a runtime AOP Hook framework with Java Method granularity at the virtual machine level. Simply put, Epic is Dexposed on ART (supports Android 4.0 ~ 10.0). It can intercept almost any Java method calls within the process, and can be used to implement AOP programming, runtime instrumentation, performance analysis, security audits, and so on.",
       "relativeUrl": "https://github.com/tiann/epic/"
-  },
-  {
-      "label": "Facebook SDK",
-      "signature": "libfb\\.so",
-      "tracker": "yes",
-      "description": "The Facebook SDK is the easiest way to integrate Facebook into an Android application for Android.",
-      "relativeUrl": "https://developers.facebook.com/docs/android/getting-started/"
   },
   {
       "label": "Sofire",
@@ -1121,7 +1114,7 @@
   },
   {
       "label": "NSPR",
-      "signature": "libnspr4.so|libplc4\\.so|libplds4\\.so",
+      "signature": "libnspr4\\.so|libplc4\\.so|libplds4\\.so",
       "tracker": "no",
       "description": "Netscape Portable Runtime (NSPR) provides a platform-neutral API for system level and libc like functions.",
       "relativeUrl": "https://www.linuxfromscratch.org/blfs/view/svn/general/nspr.html"
@@ -1303,7 +1296,7 @@
   },
   {
       "label": "SenseME",
-      "signature": "libst_mobile\\.so|libstmobile_jni\\.so",
+      "signature": "libst_mobile\\.so|libstmobile_jni\\.so|libyuki-camera-effect\\.so|libyuki-content\\.so|libyuki-effect\\.so|libyuki-filter\\.so",
       "tracker": "yes",
       "description": "enables a broad range of IoT devices to facilitate perception intelligence and content enhancement.",
       "relativeUrl": "https://www.sensetime.com/en/product-business?categoryId=33106&gioNav=1"
