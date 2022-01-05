@@ -22,7 +22,7 @@
   },
   {
       "label": "Bugly",
-      "signature": "libBugly-rqd\\.so|libBugly\\.so",
+      "signature": "libBugly(-rqd)?\\.so",
       "tracker": "yes",
       "description": "Tencent Bugly provides professional exception reporting and operation statistics for mobile developers, helping developers to quickly find and solve exceptions, and at the same time grasp the dynamics of product operations, and follow up user feedback in a timely manner.",
       "relativeUrl": "https://bugly.qq.com/"
@@ -43,7 +43,7 @@
   },
   {
       "label": "Bangcle",
-      "signature": "libDexHelper-x86\\.so|libDexHelper\\.so|libSecShell-x86\\.so|libSecShell\\.so|libdexjni\\.so|libsecexe\\.so",
+      "signature": "libDexHelper(-x86)?\\.so|libSecShell(-x86)?\\.so|libdexjni\\.so|libsecexe\\.so",
       "tracker": "yes",
       "description": "In response to various security risks such as cracking, tampering, piracy, phishing fraud, memory debugging, data theft, etc., which are currently common in mobile applications, Bangbang Security provides developers with comprehensive mobile application reinforcement encryption technology and attack prevention services.",
       "relativeUrl": "https://www.bangcle.com/products/productindex/"
@@ -113,7 +113,7 @@
   },
   {
       "label": "RenderScript",
-      "signature": "libRSSupport\\.so|librsjni\\.so|librsjni_androidx\\.so|librs\\.analyze\\.so|librs\\.rotate\\.so",
+      "signature": "libRSSupport\\.so|librsjni(_androidx)?\\.so|librs\\.(analyze|rotate)?\\.so",
       "tracker": "no",
       "description": "RenderScript is a framework for running computationally intensive tasks with high performance on Android. RenderScript is mainly used for data parallel computing, but serial workloads can also benefit from it. The RenderScript runtime can schedule work in parallel among multiple processors (such as multi-core CPUs and GPUs) provided on the device. This way you can focus on expressing algorithms instead of scheduling work. RenderScript is especially useful for applications that perform image processing, computational photography, or computer vision.",
       "relativeUrl": "https://developer.android.com/guide/topics/renderscript/compute/"
@@ -169,7 +169,7 @@
   },
   {
       "label": "AndFix",
-      "signature": "libandfix(_x86)?\\.so|libandfix_x86\\.so",
+      "signature": "libandfix(_x86)?\\.so",
       "tracker": "no",
       "description": "AndFix is u200bu200ba solution to fix errors online without redistributing the Android App.",
       "relativeUrl": "https://github.com/alibaba/AndFix"
@@ -365,7 +365,7 @@
   },
   {
       "label": "UnionPay SDK",
-      "signature": "libentryexpro\\.so|libuptsmaddon\\.so|libuptsmaddonmi\\.so|libuptsmservice\\.so",
+      "signature": "libentryexpro\\.so|libuptsm(addon|addonmi|service)+\\.so",
       "tracker": "no",
       "description": "UnionPay online payment gateway is an integrated and comprehensive Internet payment tool provided by China UnionPay and various commercial banks for cardholders. It mainly supports payment by entering card number, user login payment, online banking payment, mini payment (IC card payment), etc. It provides cardholders with payment services such as domestic and overseas online shopping, water, electricity and coal payment, and business travel reservations.",
       "relativeUrl": "https://open.unionpay.com/"
@@ -1009,21 +1009,21 @@
   },
   {
       "label": "libvpx",
-      "signature": "libvpx\\.so|libvpxV2JNI\\.so|libvpxYTJNI\\.so",
+      "signature": "libvpx(V2JNI|YTJNI)?\\.so",
       "tracker": "no",
       "description": "libvpx is a free software video codec library from Google and the Alliance for Open Media.",
       "relativeUrl": "https://github.com/webmproject/libvpx/"
   },
   {
       "label": "Android-GPUImage-Plus",
-      "signature": "libCGE\\.so|libCGEExt\\.so",
+      "signature": "libCGE(Ext)?\\.so",
       "tracker": "no",
       "description": "Android Image & Camera Filters Based on OpenGL. ",
       "relativeUrl": "https://github.com/wysaid/android-gpuimage-plus"
   },
   {
       "label": "ObjectBox Java",
-      "signature": "libobjectbox\\.so|libobjectbox-jni\\.so",
+      "signature": "libobjectbox(-jni)?\\.so",
       "tracker": "no",
       "description": "ObjectBox is a superfast lightweight database for objects",
       "relativeUrl": "https://github.com/objectbox/objectbox-java"
@@ -1079,7 +1079,7 @@
   },
   {
       "label": "BASS audio library",
-      "signature": "libbass\\.so|libbass_aac\\.so|libbass_fx\\.so|libbassopus\\.so|libbass_ssl\\.so",
+      "signature": "libbass(_aac|_fx|_ssl)?\\.so|libbassopus\\.so",
       "tracker": "no",
       "description": "BASS is an audio library for use in software on several platforms.",
       "relativeUrl": "https://www.un4seen.com/bass.html"
