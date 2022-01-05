@@ -1433,5 +1433,5 @@
       "tracker": "no",
       "description": "Yandex SpeechKit allows application developers to use Yandex speech technologies: speech recognition (Speech-to-Text) and speech synthesis (Text-to-Speech).",
       "relativeUrl": "https://cloud.yandex.com/en-ru/docs/speechkit/"
-  },
+  }
 ]
