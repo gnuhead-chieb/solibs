@@ -64,7 +64,7 @@
   },
   {
       "label": "React Native",
-      "signature": "libJavaScriptCore\\.so|libfolly_futures\\.so|libfolly_json\\.so|libglog_init\\.so|libjsc\\.so|libjscexecutor\\.so|libjsinspector\\.so|libreactnative\\.so|libreactnativeblob\\.so|libreactnativejni\\.so|libreactnativejnifb\\.so|libhermes-executor-.*\\.so|libhermes-inspector\\.so|libhermes\\.so|libjsijniprofiler\\.so|libfb\\.so|libfbjni\\.so|libreact_codegen_reactandroidspec\\.so|libreact_nativemodule_core\\.so|libreactnativeutilsjni\\.so|libreactperfloggerjni\\.so",
+      "signature": "libJavaScriptCore\\.so|libfolly_futures\\.so|libfolly_json\\.so|libglog_init\\.so|libjsc\\.so|libjscexecutor\\.so|libjsinspector\\.so|libreactnative\\.so|libreactnativeblob\\.so|libreactnativejni\\.so|libreactnativejnifb\\.so|libhermes-executor-.*\\.so|libhermes-inspector\\.so|libhermes\\.so|libjsijniprofiler\\.so|libfb(jni)?\\.so|libreact_codegen_reactandroidspec\\.so|libreact_nativemodule_core\\.so|libreactnativeutilsjni\\.so|libreactperfloggerjni\\.so",
       "tracker": "no",
       "description": "React Native allows you to write native mobile applications using only JavaScript. It is consistent with React in terms of design principles, and uses a declarative component mechanism to build a colorful user interface.",
       "relativeUrl": "https://reactnative.dev/"
@@ -92,7 +92,7 @@
   },
   {
       "label": "MNN",
-      "signature": "libMNN\\.so|libMNN_CL\\.so|libMNN_Express\\.so|libmnnkitcore\\.so|libmnnpybridge\\.so|libmnnface\\.so",
+      "signature": "libMNN(_CL|_Express)?\\.so|libmnnkitcore\\.so|libmnnpybridge\\.so|libmnnface\\.so",
       "tracker": "no",
       "description": "MNN is an efficient and lightweight deep learning framework. It supports deep model reasoning and training, especially in the end-side reasoning and training performance in the industry's leading position.",
       "relativeUrl": "https://github.com/alibaba/MNN"
@@ -127,7 +127,7 @@
   },
   {
       "label": "libSDL",
-      "signature": "libSDL2\\.so|libSDL2_ttf\\.so|libSDL2_mixer\\.so|libSDL2_image\\.so",
+      "signature": "libSDL2(_ttf|_mixer|_image)?\\.so",
       "tracker": "no",
       "description": "SDL is a cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick, and graphics hardware through OpenGL and Direct3D. It is used by video playback software, emulators, and popular games, including Valve's award-winning catalog and many Humble Bundle games.    ",
       "relativeUrl": "https://www.libsdl.org"
@@ -169,7 +169,7 @@
   },
   {
       "label": "AndFix",
-      "signature": "libandfix\\.so|libandfix_x86\\.so",
+      "signature": "libandfix(_x86)?\\.so|libandfix_x86\\.so",
       "tracker": "no",
       "description": "AndFix is u200bu200ba solution to fix errors online without redistributing the Android App.",
       "relativeUrl": "https://github.com/alibaba/AndFix"
@@ -323,14 +323,14 @@
   },
   {
       "label": "Crashlytics",
-      "signature": "libcrashlytics-common\\.so|libcrashlytics-handler\\.so|libcrashlytics-trampoline\\.so|libcrashlytics\\.so|libFirebaseCppCrashlytics\\.so|libunwind-crashlytics\\.so|libcrashlytics-envelope\\.so",
+      "signature": "libcrashlytics(-common|-handler|-trampoline|-envelope)?\\.so|libFirebaseCppCrashlytics\\.so|libunwind-crashlytics\\.so",
       "tracker": "yes",
       "description": "Crashlytics is Firebase’s main crash reporting tool. Organize many crashes into a list of easy to manage problems, thus shortening the troubleshooting time. Check the impact of the issue on the user in the Crashlytics dashboard to clearly and reasonably determine which issues should be resolved first.",
       "relativeUrl": "https://firebase.google.com/docs/crashlytics/"
   },
   {
       "label": "Yueying Crash SDK",
-      "signature": "libcrashsdk\\.so|libcrashsdk2\\.so",
+      "signature": "libcrashsdk(2)?\\.so",
       "tracker": "yes",
       "description": "Yueying Panorama Monitoring is an advanced mobile application online monitoring platform officially produced by Ali UC, which provides services for many well-known enterprises.",
       "relativeUrl": "https://yueying-docs.effirst.com/"
@@ -344,7 +344,7 @@
   },
   {
       "label": "OpenSSL",
-      "signature": "libcrypto\\.so|libopenssl\\.so|libssl\\.so|libssl.*\\.so",
+      "signature": "libcrypto\\.so|libopenssl\\.so|libssl.*\\.so",
       "tracker": "no",
       "description": "OpenSSL is a powerful, commercial-grade and full-featured toolkit for Transport Layer Security Protocol (TLS) and Secure Socket Layer (SSL) protocols.",
       "relativeUrl": "https://github.com/openssl/openssl"
@@ -407,14 +407,14 @@
   },
   {
       "label": "GCanvas",
-      "signature": "libgcanvas\\.so|libgcanvas_view\\.so",
+      "signature": "libgcanvas(_view)?\\.so",
       "tracker": "no",
       "description": "GCanvas is a cross-platform canvas solution that implements graphics 2D and WebGL API. GCanvas enables its users to directly access the OpenGL ES API. GCanvas aims to solve the performance and compatibility issues of JavaScript developers' canvas.",
       "relativeUrl": "https://alibaba.github.io/GCanvas/"
   },
   {
       "label": "libGDX",
-      "signature": "libgdx-box2d\\.so|libgdx-freetype\\.so|libgdx\\.so",
+      "signature": "libgdx(-box2d|-freetype)?\\.so",
       "tracker": "no",
       "description": "libGDX is a cross-platform Java game development framework based on OpenGL(ES), which can run on Windows, Linux, Mac OS X, Android, iOS and browsers that support WebGL. It provides a well-proven and robust environment for rapid prototyping and rapid iteration. LibGDX does not impose a specific design or coding style on you, but allows you to freely choose the way you like to create the game.",
       "relativeUrl": "https://github.com/libgdx/libgdx"
@@ -442,7 +442,7 @@
   },
   {
       "label": "gocryptsfs",
-      "signature": "libgocryptfs\\.so|libgocryptfs_jni\\.so",
+      "signature": "libgocryptfs(_jni)?\\.so",
       "tracker": "no",
       "description": "Encrypted overlay filesystem written in Go.",
       "relativeUrl": "https://github.com/rfjakob/gocryptfs"
@@ -463,7 +463,7 @@
   },
   {
       "label": "Google VR SDK",
-      "signature": "libgvr\\.so|libgvr_audio\\.so|libpanorenderer\\.so|libpano_video_renderer\\.so",
+      "signature": "libgvr(_audio)?\\.so|libpanorenderer\\.so|libpano_video_renderer\\.so",
       "tracker": "no",
       "description": "Google VR for Android supports DayDream and Cardboard.",
       "relativeUrl": "https://github.com/googlevr/gvr-android-sdk"
@@ -484,7 +484,7 @@
   },
   {
       "label": "AR Engine",
-      "signature": "libhuawei_arengine_impl\\.so|libhuawei_arengine_jni\\.so|libhuawei_arengine_ndk\\.so",
+      "signature": "libhuawei_arengine(_impl|_jni|_ndk)?\\.so",
       "tracker": "yes",
       "description": "HUAWEI AR Engine is a platform for building augmented reality applications on Android. HUAWEI AR Engine integrates AR core algorithms based on the HiSilicon chip platform to provide basic AR capabilities such as motion tracking, environment tracking, human body and face tracking. These capabilities allow your application to achieve the integration of the virtual world and the real world. The application provides a brand new visual experience and way of interaction.",
       "relativeUrl": "https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050130900"
@@ -533,7 +533,7 @@
   },
   {
       "label": "360 Security",
-      "signature": "libjiagu\\.so|libjiagu_a64\\.so|libjiagu_x64\\.so|libjiagu_x86\\.so|libX86Bridge\\.so",
+      "signature": "libjiagu(_a64)?\\.so|libjiagu(_x64|_x86)?\\.so|libX86Bridge\\.so",
       "tracker": "yes",
       "description": "360 Reinforced Security is a security technology product based on the 360 u200bu200bcore encryption technology that provides deep encryption and shell protection for Android applications, which can protect applications from malicious cracking, decompilation, secondary packaging, memory capture and other threats.",
       "relativeUrl": "https://jiagu.360.cn/"
@@ -715,7 +715,7 @@
   },
   {
       "label": "Sentry",
-      "signature": "libsentry-android\\.so|libsentry\\.so",
+      "signature": "libsentry(-android)?\\.so",
       "tracker": "yes",
       "description": "Sentry is a real-time event logging and aggregation platform that is specifically designed to monitor errors and extract all the information needed to perform appropriate post-event actions.",
       "relativeUrl": "https://sentry.io/for/android/"
@@ -736,7 +736,7 @@
   },
   {
       "label": "Sodium",
-      "signature": "libsodium\\.so|libsodium-jni\\.so",
+      "signature": "libsodium(-jni)?\\.so",
       "tracker": "no",
       "description": "A modern, portable, easy to use crypto library.",
       "relativeUrl": "https://github.com/jedisct1/libsodium"
@@ -771,7 +771,7 @@
   },
   {
       "label": "TensorFlow Lite",
-      "signature": "libtensorflowlite_jni\\.so|libtensorflowlite_gpu_jni\\.so|libtensorflow_jni\\.so",
+      "signature": "libtensorflowlite(_gpu)?_jni\\.so|libtensorflow_jni\\.so",
       "tracker": "no",
       "description": "TensorFlow Lite is a set of tools that can help developers run TensorFlow models on mobile devices, embedded devices, and IoT devices. It supports device-side machine learning inference, with low latency and small binary files.",
       "relativeUrl": "https://www.tensorflow.org/lite"
@@ -855,7 +855,7 @@
   },
   {
       "label": "xCrash",
-      "signature": "libxcrash\\.so|libxcrash_dumper\\.so",
+      "signature": "libxcrash(_dumper)?\\.so",
       "tracker": "no",
       "description": "xCrash can provide the ability to capture Java crashes, native crashes and ANRs for Android apps. No root authority or any system authority is required.",
       "relativeUrl": "https://github.com/iqiyi/xCrash/"
@@ -890,7 +890,7 @@
   },
   {
       "label": "ZBar",
-      "signature": "libzbar\\.so|libzbarjni\\.so",
+      "signature": "libzbar(jni)?\\.so",
       "tracker": "no",
       "description": "ZBar is an open source software suite for reading barcodes from various sources. It supports many popular barcode types, including EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 39, Cross 2 /5 code (Interleaved 2 of 5) and QR code (QR Code)",
       "relativeUrl": "http://zbar.sourceforge.net/"
@@ -1128,7 +1128,7 @@
   },
   {
       "label": "FFmpegKit",
-      "signature": "libffmpegkit\\.so|libffmpegkit_abidetect\\.so",
+      "signature": "libffmpegkit(_abidetect)?\\.so",
       "tracker": "no",
       "description": "FFmpegKit is a collection of tools to use FFmpeg in Android, iOS, macOS, tvOS, Flutter and React Native applications.",
       "relativeUrl": "https://github.com/tanersener/ffmpeg-kit"
@@ -1254,7 +1254,7 @@
   },
   {
       "label": "V8 JavaScript engine",
-      "signature": "libjsengine-api\\.so|libjsengine-loadso\\.so|libjsengine-platform\\.so|libv8\\.cr\\.so|libv8_libbase\\.cr\\.so|libv8_libplatform\\.cr\\.so",
+      "signature": "libjsengine(-api|-loadso|-platform)?\\.so|libv8\\.cr\\.so|libv8_libbase\\.cr\\.so|libv8_libplatform\\.cr\\.so",
       "tracker": "no",
       "description": "V8 is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++.",
       "relativeUrl": "https://v8.dev/"
@@ -1296,7 +1296,7 @@
   },
   {
       "label": "SenseME",
-      "signature": "libst_mobile\\.so|libstmobile_jni\\.so|libyuki-camera-effect\\.so|libyuki-content\\.so|libyuki-effect\\.so|libyuki-filter\\.so",
+      "signature": "libst_mobile\\.so|libstmobile_jni\\.so|libyuki-(camera-effect|content|effect|filter)?\\.so",
       "tracker": "yes",
       "description": "enables a broad range of IoT devices to facilitate perception intelligence and content enhancement.",
       "relativeUrl": "https://www.sensetime.com/en/product-business?categoryId=33106&gioNav=1"
@@ -1317,7 +1317,7 @@
   },
   {
       "label": "Rime Core",
-      "signature": "librime\\.so|librime_jni\\.so",
+      "signature": "librime(_jni)?\\.so",
       "tracker": "no",
       "description": "RIME input method engine core library.",
       "relativeUrl": "https://github.com/rime/librime"
@@ -1345,7 +1345,7 @@
   },
   {
       "label": "Boost",
-      "signature": "libboost_filesystem\\.so|libboost_system\\.so",
+      "signature": "libboost(_filesystem|_system)?\\.so",
       "tracker": "no",
       "description": "Boost provides free peer-reviewed portable C++ source libraries.",
       "relativeUrl": "https://www.boost.org/"
