@@ -1,7 +1,7 @@
 [
   {
       "label": "MSA SDK",
-      "signature": "lib39285EFA\\.so|libA3AEECD8\\.so|libsecsdk\\.so",
+      "signature": "lib39285EFA\\.so|libA3AEECD8\\.so|libsecsdk\\.so|libmsaoaid(auth|sec)?\\.so",
       "tracker": "yes",
       "description": "The unified call of the mobile smart terminal supplementary device identification system SDK is provided by the China Academy of Information and Communications Technology's Tyre Terminal Laboratory and the Mobile Security Alliance. The intellectual property rights are owned by the China Academy of Information and Communications Technology.",
       "relativeUrl": "http://msa-alliance.cn"
@@ -64,7 +64,7 @@
   },
   {
       "label": "React Native",
-      "signature": "libJavaScriptCore\\.so|libfolly_futures\\.so|libfolly_json\\.so|libglog_init\\.so|libjsc\\.so|libjscexecutor\\.so|libjsinspector\\.so|libreactnative\\.so|libreactnativeblob\\.so|libreactnativejni\\.so|libreactnativejnifb\\.so|libhermes-executor-.*\\.so|libhermes-inspector\\.so|libhermes\\.so|libjsijniprofiler\\.so|libfb(jni)?\\.so|libreact_codegen_reactandroidspec\\.so|libreact_nativemodule_core\\.so|libreactnativeutilsjni\\.so|libreactperfloggerjni\\.so",
+      "signature": "libJavaScriptCore\\.so|libfolly_(futures|json)?\\.so|libglog_init\\.so|libjsc(executor)?\\.so|libjsinspector\\.so|libjsijniprofiler\\.so|libreactnative(blob|jni|jnifb|utilsjni)?\\.so|libfb(jni)?\\.so|libreact_(codegen_reactandroidspec|nativemodule_core)?\\.so|libreactperfloggerjni\\.so",
       "tracker": "no",
       "description": "React Native allows you to write native mobile applications using only JavaScript. It is consistent with React in terms of design principles, and uses a declarative component mechanism to build a colorful user interface.",
       "relativeUrl": "https://reactnative.dev/"
@@ -92,7 +92,7 @@
   },
   {
       "label": "MNN",
-      "signature": "libMNN(_CL|_Express)?\\.so|libmnnkitcore\\.so|libmnnpybridge\\.so|libmnnface\\.so",
+      "signature": "libMNN(_CL|_Express)?\\.so|libmnn(kitcore|pybridge|face)+\\.so",
       "tracker": "no",
       "description": "MNN is an efficient and lightweight deep learning framework. It supports deep model reasoning and training, especially in the end-side reasoning and training performance in the industry's leading position.",
       "relativeUrl": "https://github.com/alibaba/MNN"
@@ -176,14 +176,14 @@
   },
   {
       "label": "Xamarin",
-      "signature": "libxa-internal-api\\.so|libmono-btls-shared\\.so|libmono-native\\.so|libmonodroid\\.so|libmonodroid_bundle_app\\.so|libmonosgen-.*\\.so|libxamarin-app\\.so|libaot-.*\\.dll\\.so",
+      "signature": "libxa-internal-api\\.so|libmono-(native|btls-shared)?\\.so|libmonodroid(_bundle_app)?\\.so|libmonosgen-.*\\.so|libxamarin-app\\.so|libaot-.*\\.dll\\.so",
       "tracker": "no",
       "description": "Xamarin is a cross-platform development software. By using the C# shared code base, developers can use Xamarin tools to write native Android, iOS and Windows applications using the local user interface, and share them across multiple platforms (including Windows and MacOS) Code.",
       "relativeUrl": "https://dotnet.microsoft.com/apps/xamarin/"
   },
   {
       "label": "Tencent Cloud QAPM",
-      "signature": "libapmart\\.so|libapmcrash\\.so|libapmdalvik\\.so|libapmioFake\\.so",
+      "signature": "libapm(art|crash|dalvik|ioFake)+\\.so",
       "tracker": "yes",
       "description": "Tencent Client Performance Analysis (QAPM) is an SDK for omni-directional positioning and testing of APP application performance. It is easy to use, and can provide multi-dimensional testing and analysis. You only need to simply call a few interfaces, and you can APP does all-round performance testing.",
       "relativeUrl": "https://cloud.tencent.com/document/product/683"
@@ -232,14 +232,14 @@
   },
   {
       "label": "FFmpeg",
-      "signature": "libavcodec\\.so|libavdevice\\.so|libavfilter\\.so|libavformat\\.so|libavutil\\.so|libswresample\\.so|libswscale\\.so|libffmpeg\\.so|libffmpeg-android\\.so|lib\\.\\.ffmpeg\\.\\.so",
+      "signature": "libav(codec|device|filter|format|util)+\\.so|libsw(resample|scale)+\\.so|libffmpeg\\.so|libffmpeg-android\\.so|lib\\.\\.ffmpeg\\.\\.so",
       "tracker": "no",
       "description": "FFmpeg is a leading multimedia framework, capable of decoding, encoding, transcoding, MUX, DEMUX, streaming, filtering and playing almost all content created by humans and machines.",
       "relativeUrl": "http://www.ffmpeg.org/libavcodec.html"
   },
   {
       "label": "Fresco",
-      "signature": "libbitmaps\\.so|libgifimage\\.so|libimagepipeline\\.so|libmemchunk\\.so|libnative-filters\\.so|libnative-imagetranscoder\\.so|libstatic-webp\\.so|libwebp\\.so|libwebpimage\\.so|libnative-file-access\\.so",
+      "signature": "libbitmaps\\.so|libgifimage\\.so|libimagepipeline\\.so|libmemchunk\\.so|libnative-(filters|imagetranscoder|file-access)\\.so|libstatic-webp\\.so|libwebp(image)?\\.so",
       "tracker": "no",
       "description": "Fresco is an Android library for managing images and the memory they use.",
       "relativeUrl": "https://github.com/facebook/fresco/"
@@ -260,7 +260,7 @@
   },
   {
       "label": "Pangle SDK",
-      "signature": "libbuffer_pg\\.so|libfile_lock_pg\\.so|libmetasec_ml\\.so|libnms\\.so|libtobEmbedEncrypt\\.so",
+      "signature": "libbuffer_pg\\.so|libfile_lock_pg\\.so|libmetasec_ml\\.so|libnms\\.so|libtobEmbedEncrypt\\.so|libpangleflipped\\.so",
       "tracker": "yes",
       "description": "Pangolin is a global application monetization and growth platform under the giant engine. It has cooperated with more than 30,000 high-quality media, with daily requests exceeding 60.7 billion, with an average daily display of 10 billion, covering 700 million daily active users, and providing efficient user growth for global applications and advertisers. And monetization solutions.",
       "relativeUrl": "https://partner.oceanengine.com/"
@@ -274,7 +274,7 @@
   },
   {
       "label": "Bugsnag",
-      "signature": "libbugsnag-ndk\\.so|libbugsnag-plugin-android-anr\\.so|libbugsnag-root-detection\\.so|libbugsnag-unity\\.so",
+      "signature": "libbugsnag-(ndk|plugin-android-anr|root-detection|unity)?\\.so",
       "tracker": "yes",
       "description": "Bugsnag's Android crash report library will automatically detect crashes in Android applications, collect diagnostic information and immediately notify your development team to help you understand and solve the problem as soon as possible.",
       "relativeUrl": "https://github.com/bugsnag/bugsnag-android"
@@ -652,7 +652,7 @@
   },
   {
       "label": "Opus",
-      "signature": "libopus\\.so|libopusJNI\\.so|libogg\\.so|libogg_opus_encoder\\.so|libogg_opus_encoder_translate\\.so|libopusV2JNI\\.so|libopusfile\\.so|libopusvadjava\\.so",
+      "signature": "libopus(JNI)?\\.so|libogg\\.so|libogg_opus_encoder(_translate)?\\.so|libopus(V2JNI|file|vadjava)+\\.so",
       "tracker": "no",
       "description": "Opus is a codec used for interactive voice and audio transmission over the network",
       "relativeUrl": "https://gitlab.xiph.org/xiph/opus"
@@ -883,7 +883,7 @@
   },
   {
       "label": "libYUV",
-      "signature": "libyuv\\.so|libyuv_to_rgb_jni\\.so|libyuv-decoder\\.so",
+      "signature": "libyuv(_to_rgb_jni|-decoder)?\\.so",
       "tracker": "no",
       "description": "libYUV is Google's open source yuv image processing library, which realizes the conversion between various yuv data, including data conversion, cropping, scaling, and rotation.",
       "relativeUrl": "https://chromium.googlesource.com/libyuv/libyuv/"
@@ -1044,7 +1044,7 @@
   },
   {
       "label": "Agora",
-      "signature": "libagoraSdkCWrapper\\.so|libagora-rtc-sdk-jni\\.so",
+      "signature": "libagoraSdkCWrapper\\.so|libagora-(rtc-sdk|rtc-sdk-jni|core|ffmpeg|soundtouch)?\\.so|libagora_(ai_denoise|ci|dav1d|fd|jnd|segmentation|super_resolution|video_process)?_extension\\.so|libagora_(fdkaac|mpg123)?\\.so",
       "tracker": "yes",
       "description": "Agora Real-Time Voice and Video Engagement",
       "relativeUrl": "https://www.agora.io/en/"
@@ -1205,7 +1205,7 @@
   },
   {
       "label": "AVPro Video",
-      "signature": "libAVProLocal\\.so|libAVProVideo2Native\\.so|libAudio360-JNI\\.so|libAudio360\\.so",
+      "signature": "libAVPro(Local|Video2Native)?\\.so|libAudio360(-JNI)?\\.so",
       "tracker": "no",
       "description": "Advanced video playback for Unity",
       "relativeUrl": "https://renderheads.com/products/avpro-video/"
@@ -1219,7 +1219,7 @@
   },
   {
       "label": "MobileFFmpeg",
-      "signature": "libmobileffmpeg\\.so|libmobileffmpeg_abidetect\\.so",
+      "signature": "libmobileffmpeg(_abidetect)?\\.so",
       "tracker": "no",
       "description": "FFmpeg for Android, iOS and tvOS. Not maintained anymore. Superseded by FFmpegKit.",
       "relativeUrl": "https://github.com/tanersener/mobile-ffmpeg"
@@ -1233,7 +1233,7 @@
   },
   {
       "label": "card.io SDK for Android",
-      "signature": "libcardioDecider\\.so|libcardioRecognizer\\.so|libcardioRecognizer_tegra2\\.so",
+      "signature": "libcardioDecider\\.so|libcardioRecognizer(_tegra2)?\\.so",
       "tracker": "no",
       "description": "card.io provides fast, easy credit card scanning in mobile apps.",
       "relativeUrl": "https://github.com/card-io/card.io-Android-SDK"
@@ -1356,5 +1356,21 @@
       "tracker": "no",
       "description": "JNI bindings for Zstd native library that provides fast and high compression lossless algorithm for Android",
       "relativeUrl": "https://github.com/luben/zstd-jni"
-  }
+  },
+  {
+      "label": "Filament",
+      "signature": "libfilament(-utils)?-jni\\.so|libgltfio-jni\\.so",
+      "tracker": "no",
+      "description": "Filament is a real-time physically based rendering engine for Android, iOS, Windows, Linux, macOS, and WebGL2 ",
+      "relativeUrl": "https://github.com/google/filament"
+  },
+  {
+      "label": "Hermes JS Engine",
+      "signature": "libhermes(-executor-.*|-inspector)?\\.so",
+      "tracker": "no",
+      "description": "A JavaScript engine optimized for running React Native. ",
+      "relativeUrl": "https://github.com/facebook/hermes"
+  },
 ]
+
+
