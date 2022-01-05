@@ -204,8 +204,8 @@
   },
   {
       "label": "AMAP SDK",
-      "signature": "libapssdk\\.so",
-      "tracker": "no",
+      "signature": "libapssdk\\.so|libAMapSDK_NAVI_.*\\.so",
+      "tracker": "yes",
       "description": "AutoNavi Maps Android SDK is a set of map development call interfaces. Developers can easily add map-related functions to their Android applications, including: map display (including indoor and outdoor maps), interact with the map, and draw on the map , Point of interest search, geocoding, offline map and other functions.",
       "relativeUrl": "https://lbs.amap.com/api/android-sdk/summary/"
   },
@@ -519,7 +519,7 @@
   },
   {
       "label": "Baidu LBS",
-      "signature": "libindoor\\.so",
+      "signature": "libindoor\\.so|liblocSDK.*[0-9](a|b)?\\.so|libBaiduMapSDK(_base|_map)?_.*\.so",
       "tracker": "yes",
       "description": "Baidu Maps Android SDK is a set of application program interfaces based on Android 4.0 and above devices. You can use this set of SDK to develop map applications for mobile devices of the Android system. By calling the Map SDK interface, you can easily access Baidu map services and data, and build map applications with rich functions and strong interaction.",
       "relativeUrl": "https://lbsyun.baidu.com/"
@@ -722,7 +722,7 @@
   },
   {
       "label": "Alibaba security",
-      "signature": "libsgavmp\\.so|libsgmain\\.so|libsgsecuritybody\\.so|libsgsgmiddletier\\.so|libsgmainso-.*\\.so|libsgmiscso-.*\\.so|libsgmiddletierso-.*\\.so|libsgnocaptchaso-.*\\.so|libsgmiddletier\\.so|libsgmisc\\.so|libsgnocaptcha\\.so|libsgsecuritybodyso-.*\\.so|libAPSE_.*\\.so",
+      "signature": "libsgavmp\\.so|libsgmain\\.so|libsgsecuritybody\\.so|libsgsgmiddletier\\.so|libsgmainso-.*\\.so|libsgmiscso-.*\\.so|libsgmiddletierso-.*\\.so|libsgnocaptchaso-.*\\.so|libsgmiddletier\\.so|libsgmisc\\.so|libsgnocaptcha\\.so|libsgsecuritybodyso-.*\\.so|libAPSE_.*\\.so|libsgavmpso-.*\\.so",
       "tracker": "yes",
       "description": "Aliju Security is an open platform for developers with mobile application security as the core.",
       "relativeUrl": "https://jaq-doc.alibaba.com/docs/doc.htm?treeId=243&articleId=106477&docType=1"
@@ -791,8 +791,8 @@
       "relativeUrl": "https://github.com/Beyka/Android-TiffBitmapFactory"
   },
   {
-      "label": "Torrent library for java",
-      "signature": "libtorrent4j\\.so",
+      "label": "libtorrent4j",
+      "signature": "libtorrent4j(-.*)?\\.so",
       "tracker": "no",
       "description": "libtorrent for java, a swig Java interface for libtorrent.",
       "relativeUrl": "https://github.com/aldenml/libtorrent4j"
@@ -1370,5 +1370,68 @@
       "tracker": "no",
       "description": "A JavaScript engine optimized for running React Native. ",
       "relativeUrl": "https://github.com/facebook/hermes"
-  }
+  },
+  {
+      "label": "Baichuan SDK",
+      "signature": "libcocklogic-.*\\.so",
+      "tracker": "yes",
+      "description": "Bai Chuanyun push is a big data-based Ali mobile cloud service, real-time, more stable, and more real-time push. It is designed to provide high-quality information push service from the cloud to mobile terminal for Baichuan mobile applications. Developers only need to work with simple configuration and encoding, so that it is possible to quickly build, efficient and stable push services that serve their own business. ",
+      "relativeUrl": "https://open.alitrip.com/docs/doc.htm?treeId=29&articleId=102362&docType=1"
+  },
+  {
+      "label": "Baidu Push",
+      "signature": "libbdpush_.*\\.so",
+      "tracker": "yes",
+      "description": "Baidu Cloud Push (PUSH) is a one-stop app information push platform, providing a free message push service for companies and developers, developers can send users to easily push the notification and custom messages to enhance the user's retaining rate and activity.",
+      "relativeUrl": "http://push.baidu.com/doc/android/api"
+  },
+  {
+      "label": "Top icon inductible verification SDK ",
+      "signature": "libDXRisk.*\\.so",
+      "tracker": "yes",
+      "description": "The top icon is not aware of the combination of various technologies such as fingerprint, behavioral characteristics, access frequencies, and geographic locations. Effective interception of malicious logins, bulk registration, blocking machine operations, intercepting non-normal users.",
+      "relativeUrl": "https://www.dingxiang-inc.com/docs/detail/captcha#doc-h3-41"
+  },
+  {
+      "label": "frostwire-jlibtorrent",
+      "signature": "libjlibtorrent-.*\\.so",
+      "tracker": "no",
+      "description": "A swig Java interface for libtorrent by the makers of FrostWire. Develop libtorrent based apps with the joy of coding in Java. ",
+      "relativeUrl": "https://github.com/frostwire/frostwire-jlibtorrent"
+  },
+  {
+      "label": "JPush",
+      "signature": "libjcore.*\\.so",
+      "tracker": "yes",
+      "description": "JPush is a highly tested large-scale APP push platform with more than 500 million messages per day. After the developer integrates SDK, you can push the message by calling the API. At the same time, JPUSH provides visualized web-side console sending notifications, statistical analysis pushing effects. JPush fully supports Android, iOS, Winphone 3 mobile platforms. ",
+      "relativeUrl": "https://docs.jiguang.cn/jpush/guideline/intro/"
+  },
+  {
+      "label": "Qt",
+      "signature": "libQt[1-9].*\\.so|libplugins_.*\\.so|libqml_Qt(3D)?.*\\.so",
+      "tracker": "no",
+      "description": "Cross-platform software development for embedded & desktop",
+      "relativeUrl": "https://www.qt.io"
+  },
+  {
+      "label": "Telegram APIs",
+      "signature": "libtmessages.*\\.so",
+      "tracker": "no",
+      "description": "The Bot API allows you to easily create programs that use Telegram messages for an interface. The Telegram API and TDLib allow you to build your own customized Telegram clients.",
+      "relativeUrl": "https://core.telegram.org/api"
+  },
+  {
+      "label": "Tencent Le Gu",
+      "signature": "libshell-super.*\\.so|libshella-.*\\.so",
+      "tracker": "yes",
+      "description": "Mobile application security (MS) provides one-stop security solution for mobile apps. Users only need to upload a signature installed package to enjoy a series of security services such as security testing, application reinforcement, channel monitoring, and security SDK. Mobile application security helps you prevent application from being cracked by pirated, timely discovering application vulnerabilities, monitoring application pirate distribution, etc., effectively defending the interests of mobile app owners. ",
+      "relativeUrl": "https://cloud.tencent.com/document/product/283"
+  },
+  {
+      "label": "Yandex SpeechKit",
+      "signature": "libYandexSpeechKitJni.*\\.so",
+      "tracker": "no",
+      "description": "Yandex SpeechKit allows application developers to use Yandex speech technologies: speech recognition (Speech-to-Text) and speech synthesis (Text-to-Speech).",
+      "relativeUrl": "https://cloud.yandex.com/en-ru/docs/speechkit/"
+  },
 ]
