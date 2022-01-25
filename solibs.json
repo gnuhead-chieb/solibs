@@ -1447,5 +1447,5 @@
       "tracker": "yes",
       "description": "strongSwan is an OpenSource IPsec-based VPN solution.",
       "relativeUrl": "https://github.com/strongswan/strongswan"
-  },
+  }
 ]
