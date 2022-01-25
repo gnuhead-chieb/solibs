@@ -64,7 +64,7 @@
   },
   {
       "label": "React Native",
-      "signature": "libJavaScriptCore\\.so|libfolly_(futures|json)?\\.so|libglog_init\\.so|libjsc(executor)?\\.so|libjsinspector\\.so|libjsijniprofiler\\.so|libreactnative(blob|jni|jnifb|utilsjni)?\\.so|libfb(jni)?\\.so|libreact_(codegen_reactandroidspec|nativemodule_core)?\\.so|libreactperfloggerjni\\.so",
+      "signature": "libJavaScriptCore\\.so|libfolly_(futures|json)?\\.so|libglog_init\\.so|libjsc(executor)?\\.so|libjsinspector\\.so|libjsijniprofiler\\.so|libreactnative(blob|jni|jnifb|utilsjni)?\\.so|libfb(jni)?\\.so|libreact_(codegen_reactandroidspec|codegen_rncore|nativemodule_core|debug|utils)?\\.so|libreactperfloggerjni\\.so|libreact_render_.*\\.so|libreactconfig\\.so|librrc_(image|modal|progressbar|root|scrollview|slider|switch|text|textinput|unimplementedview|view)?\\.so",
       "tracker": "no",
       "description": "React Native allows you to write native mobile applications using only JavaScript. It is consistent with React in terms of design principles, and uses a declarative component mechanism to build a colorful user interface.",
       "relativeUrl": "https://reactnative.dev/"
@@ -519,7 +519,7 @@
   },
   {
       "label": "Baidu LBS",
-      "signature": "libindoor\\.so|liblocSDK.*[0-9](a|b)?\\.so|libBaiduMapSDK(_base|_map)?_.*\.so",
+      "signature": "libindoor\\.so|liblocSDK.*[0-9](a|b)?\\.so|libBaiduMapSDK(_base|_map)?_.*\\.so",
       "tracker": "yes",
       "description": "Baidu Maps Android SDK is a set of application program interfaces based on Android 4.0 and above devices. You can use this set of SDK to develop map applications for mobile devices of the Android system. By calling the Map SDK interface, you can easily access Baidu map services and data, and build map applications with rich functions and strong interaction.",
       "relativeUrl": "https://lbsyun.baidu.com/"
@@ -1433,5 +1433,19 @@
       "tracker": "no",
       "description": "Yandex SpeechKit allows application developers to use Yandex speech technologies: speech recognition (Speech-to-Text) and speech synthesis (Text-to-Speech).",
       "relativeUrl": "https://cloud.yandex.com/en-ru/docs/speechkit/"
-  }
+  },
+  {
+      "label": "ComScore",
+      "signature": "libcomScore\\.so",
+      "tracker": "yes",
+      "description": "Comscore is an American media measurement and analytics company providing marketing data and analytics to enterprises; media and advertising agencies; and publishers. ",
+      "relativeUrl": "https://www.comscore.com"
+  },
+  {
+      "label": "strongSwan",
+      "signature": "libstrongswan\\.so",
+      "tracker": "yes",
+      "description": "strongSwan is an OpenSource IPsec-based VPN solution.",
+      "relativeUrl": "https://github.com/strongswan/strongswan"
+  },
 ]
