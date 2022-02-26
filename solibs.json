@@ -798,13 +798,6 @@
       "relativeUrl": "https://github.com/aldenml/libtorrent4j"
   },
   {
-      "label": "Tencent TPNS",
-      "signature": "libtpnsSecurity\\.so|libxguardian\\.so",
-      "tracker": "yes",
-      "description": "Pigeon Push provides developers with a free, fast and simple push service.",
-      "relativeUrl": "https://xg.qq.com/docs/"
-  },
-  {
       "label": "Tencent TRTC",
       "signature": "libtraeimp-rtmp\\.so",
       "tracker": "no",
@@ -862,7 +855,7 @@
   },
   {
       "label": "Tencent TPNS",
-      "signature": "libxgVipSecurity\\.so",
+      "signature": "libxgVipSecurity\\.so|libtpnsSecurity\\.so|libxguardian\\.so",
       "tracker": "yes",
       "description": "Mobile push TPNS (Tencent Push Notification Service) provides you with a stable, fast and high-arrival APP push service. Its access is convenient and fast, with industry-leading technical strength, stable and reliable message push channel, and unique optional dual-service joint keep-alive service, which can effectively increase the message arrival rate; the system can accommodate 18 million push messages per minute. It can reach within seconds (supporting Tencent's internal application push tools such as King Glory); in addition, it has the ability to accurately label users, which effectively helps the refined operation of APP. ",
       "relativeUrl": "https://cloud.tencent.com/product/tpns"
