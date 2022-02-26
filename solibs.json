@@ -203,7 +203,7 @@
       "relativeUrl": "https://flutter.dev/"
   },
   {
-      "label": "AMAP SDK",
+      "label": "Amap",
       "signature": "libapssdk\\.so|libAMapSDK_NAVI_.*\\.so",
       "tracker": "yes",
       "description": "AutoNavi Maps Android SDK is a set of map development call interfaces. Developers can easily add map-related functions to their Android applications, including: map display (including indoor and outdoor maps), interact with the map, and draw on the map , Point of interest search, geocoding, offline map and other functions.",
@@ -245,7 +245,7 @@
       "relativeUrl": "https://github.com/facebook/fresco/"
   },
   {
-      "label": "Bmob",
+      "label": "Bmob Android SDK",
       "signature": "libbmob\\.so",
       "tracker": "yes",
       "description": "Bmob back-end cloud focuses on providing a complete set of back-end cloud services for mobile applications, helping developers to avoid almost all server-side coding workload, and exponentially reducing development costs and development time.",
