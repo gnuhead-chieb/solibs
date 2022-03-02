@@ -22,7 +22,7 @@
   },
   {
       "label": "Bugly",
-      "signature": "libBugly(-rqd)?\\.so",
+      "signature": "libBugly(-rqd|-ext)?\\.so",
       "tracker": "yes",
       "description": "Tencent Bugly provides professional exception reporting and operation statistics for mobile developers, helping developers to quickly find and solve exceptions, and at the same time grasp the dynamics of product operations, and follow up user feedback in a timely manner.",
       "relativeUrl": "https://bugly.qq.com/"
