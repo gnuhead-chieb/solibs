@@ -1440,5 +1440,12 @@
       "tracker": "yes",
       "description": "strongSwan is an OpenSource IPsec-based VPN solution.",
       "relativeUrl": "https://github.com/strongswan/strongswan"
+  },
+  {
+      "label": "Chilkat",
+      "signature": "libchilkat\\.so",
+      "tracker": "yes",
+      "description": "Chilkat is a cross-language, cross-platform API providing 90+ classes for many Internet protocols, formats, and algorithms.",
+      "relativeUrl": "https://www.chilkatsoft.com/"
   }
 ]
